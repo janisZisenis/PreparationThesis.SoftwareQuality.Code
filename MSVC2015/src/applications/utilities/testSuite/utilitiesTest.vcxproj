@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1DB1358A-2568-3DA8-8697-FE9410B32539}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>utilitiesTest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">utilitiesTest.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">utilitiesTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">utilitiesTest.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">utilitiesTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">utilitiesTest.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">utilitiesTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">utilitiesTest.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">utilitiesTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;GTEST_LINKED_AS_SHARED_LIBRARY;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;GTEST_LINKED_AS_SHARED_LIBRARY;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;gmock_main.lib;gmock.lib;..\Debug\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Sven/Documents/CompositeApp/lib/gmock/MSVC2015/Debug;C:/Users/Sven/Documents/CompositeApp/lib/gmock/MSVC2015/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/testSuite/Debug/utilitiesTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Debug/utilitiesTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;gmock_main.lib;gmock.lib;..\Release\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Sven/Documents/CompositeApp/lib/gmock/MSVC2015/Debug;C:/Users/Sven/Documents/CompositeApp/lib/gmock/MSVC2015/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/testSuite/Release/utilitiesTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Release/utilitiesTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;gmock_main.lib;gmock.lib;..\MinSizeRel\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Sven/Documents/CompositeApp/lib/gmock/MSVC2015/Debug;C:/Users/Sven/Documents/CompositeApp/lib/gmock/MSVC2015/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/testSuite/MinSizeRel/utilitiesTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/MinSizeRel/utilitiesTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;gmock_main.lib;gmock.lib;..\RelWithDebInfo\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Sven/Documents/CompositeApp/lib/gmock/MSVC2015/Debug;C:/Users/Sven/Documents/CompositeApp/lib/gmock/MSVC2015/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/testSuite/RelWithDebInfo/utilitiesTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/RelWithDebInfo/utilitiesTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\GMock\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeDecorator\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\Leaf\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\String\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\GMock\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeDecorator\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\Leaf\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\String\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\GMock\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeDecorator\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\Leaf\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\String\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\GMock\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeDecorator\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\Leaf\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\String\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandMocks.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandQueueImpTest.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventArgsMocks.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventListenerMocks.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventMocks.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventTest.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\LoggerMocks.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\MathTest.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\ObjectMocks.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\ObjectTest.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\ObserverMocks.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\SubjectTest.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\String\StringTest.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\VisitableMocks.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\VisitorMocks.h" />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandQueueImpTest.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventTest.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\MathTest.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\ObjectTest.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\SubjectTest.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\String\StringTest.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/ZERO_CHECK.vcxproj">
+      <Project>92BF220F-C07E-308D-BC74-111A806BD3B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/utilities.vcxproj">
+      <Project>AFA8CDCF-7415-35B8-BAD6-2CEFE8F08767</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

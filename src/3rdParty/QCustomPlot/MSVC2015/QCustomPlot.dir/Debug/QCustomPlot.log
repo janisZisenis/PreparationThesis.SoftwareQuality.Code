@@ -1,0 +1,10 @@
+﻿  Generating moc source QCustomPlot_automoc.dir/moc_qcustomplot_CHATLDFIKZUHH2.cpp
+  Generating moc compilation QCustomPlot_automoc.cpp
+  Building Custom Rule C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/QCustomPlot/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\QCustomPlot\MSVC2015\CMakeFiles\generate.stamp is up-to-date.
+  qcustomplot.cpp
+  QCustomPlot_automoc.cpp
+  Generating Code...
+     Creating library C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/QCustomPlot/MSVC2015/Debug/QCustomPlot.lib and object C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/QCustomPlot/MSVC2015/Debug/QCustomPlot.exp
+  QCustomPlot.vcxproj -> C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\QCustomPlot\MSVC2015\Debug\QCustomPlot.dll
+  QCustomPlot.vcxproj -> C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/QCustomPlot/MSVC2015/Debug/QCustomPlot.pdb (Full PDB)

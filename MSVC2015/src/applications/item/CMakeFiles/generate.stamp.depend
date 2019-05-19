@@ -1,0 +1,43 @@
+# CMake generation dependency list for this directory.
+C:/Users/Sven/Documents/CompositeApp/src/applications/item/CMakeLists.txt
+C:/Users/Sven/Documents/CompositeApp/cmake/general/LibUtilities.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/GenerateExportHeader.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/Boost/Link.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/DummyItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/CoordinateSystemItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/MorisonItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/PileItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/ProjectHierarchyItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/SedimentItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/SedimentTransportItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/WaterItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/WaveDynamicItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TreeItem/NodeItem/WaveItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/TreeItemFactory/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Users/Sven/Documents/CompositeApp/src/item/HierarchicItem/TableItem/CMakePackage.cmake
+C:/Users/Sven/Documents/CompositeApp/cmake/general/FileUtilities.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/exportheader.cmake.in
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindBoost.cmake

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQCustomTable\MyQCustomTable.cpp">
+      <Filter>MyQCustomTable</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQDockWidget\MyQDockWidget.cpp">
+      <Filter>MyQDockWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQDockWidget\MyQPropertiesExplorer\MyQPropertiesExplorer.cpp">
+      <Filter>MyQDockWidget\MyQPropertiesExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQDockWidget\MyQSolutionExplorer\MyQSolutionExplorer.cpp">
+      <Filter>MyQDockWidget\MyQSolutionExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQEvaluationView\WaveDynamic\MyQWaveKinematicView\MyQWaveKinematicView.cpp">
+      <Filter>MyQEvaluationView\WaveDynamic\MyQWaveKinematicView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQEvaluationView\WaveDynamic\MyQWaveProfileView\MyQWaveProfileView.cpp">
+      <Filter>MyQEvaluationView\WaveDynamic\MyQWaveProfileView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQItemModel\MyQItemModel.cpp">
+      <Filter>MyQItemModel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQMenu.cpp">
+      <Filter>MyQMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQAddNodeMenu\MyQAddNodeMenu.cpp">
+      <Filter>MyQMenu\MyQAddNodeMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQBindingMenu\MyQBindingMenu.cpp">
+      <Filter>MyQMenu\MyQBindingMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQEditMenu\MyQEditMenu.cpp">
+      <Filter>MyQMenu\MyQEditMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQEvaluateMenu\MyQEvaluateMenu.cpp">
+      <Filter>MyQMenu\MyQEvaluateMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQViewMenu\MyQViewMenu.cpp">
+      <Filter>MyQMenu\MyQViewMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQShell\MyQShell.cpp">
+      <Filter>MyQShell</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQTableView\MyQItemTableModel.cpp">
+      <Filter>MyQTableView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQTableView\MyQTableView.cpp">
+      <Filter>MyQTableView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQTreeView\MyQItemTreeModel.cpp">
+      <Filter>MyQTreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQTreeView\MyQTreeView.cpp">
+      <Filter>MyQTreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQViewFactoryImp\MyQViewFactoryImp.cpp">
+      <Filter>MyQViewFactoryImp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\qtView\qtView_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQCustomTable\MyQCustomTable.h">
+      <Filter>MyQCustomTable</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQDockWidget\MyQDockWidget.h">
+      <Filter>MyQDockWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQDockWidget\MyQPropertiesExplorer\MyQPropertiesExplorer.h">
+      <Filter>MyQDockWidget\MyQPropertiesExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQDockWidget\MyQSolutionExplorer\MyQSolutionExplorer.h">
+      <Filter>MyQDockWidget\MyQSolutionExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQEvaluationView\WaveDynamic\MyQWaveKinematicView\MyQWaveKinematicView.h">
+      <Filter>MyQEvaluationView\WaveDynamic\MyQWaveKinematicView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQEvaluationView\WaveDynamic\MyQWaveProfileView\MyQWaveProfileView.h">
+      <Filter>MyQEvaluationView\WaveDynamic\MyQWaveProfileView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQItemModel\MyQItemModel.h">
+      <Filter>MyQItemModel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQMenu.h">
+      <Filter>MyQMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQAddNodeMenu\MyQAddNodeMenu.h">
+      <Filter>MyQMenu\MyQAddNodeMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQBindingMenu\MyQBindingMenu.h">
+      <Filter>MyQMenu\MyQBindingMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQEditMenu\MyQEditMenu.h">
+      <Filter>MyQMenu\MyQEditMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQEvaluateMenu\MyQEvaluateMenu.h">
+      <Filter>MyQMenu\MyQEvaluateMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQMenu\MyQViewMenu\MyQViewMenu.h">
+      <Filter>MyQMenu\MyQViewMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQShell\MyQShell.h">
+      <Filter>MyQShell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQTableView\MyQItemTableModel.h">
+      <Filter>MyQTableView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQTableView\MyQTableView.h">
+      <Filter>MyQTableView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQTreeView\MyQItemTreeModel.h">
+      <Filter>MyQTreeView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQTreeView\MyQTreeView.h">
+      <Filter>MyQTreeView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQUtilities\MyQUtilities.h">
+      <Filter>MyQUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\qtView\MyQViewFactoryImp\MyQViewFactoryImp.h">
+      <Filter>MyQViewFactoryImp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\qtView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MyQMenu\MyQAddNodeMenu">
+      <UniqueIdentifier>{B2536F51-9B7F-3C44-9CCB-4D66139D50C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQMenu\MyQBindingMenu">
+      <UniqueIdentifier>{95204046-3190-3DD1-A94B-2DF8013DD5D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQMenu\MyQEditMenu">
+      <UniqueIdentifier>{4C922571-A4BF-3E03-9115-E2001041E6B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQMenu\MyQEvaluateMenu">
+      <UniqueIdentifier>{2326D854-4679-32E7-A720-00FEDB55DEC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQMenu\MyQViewMenu">
+      <UniqueIdentifier>{B1B9FEE2-018A-393C-9675-E7BC370D2785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQEvaluationView\WaveDynamic">
+      <UniqueIdentifier>{25C8F234-D3EF-37CE-BA32-9F66C6FC2AA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQEvaluationView\WaveDynamic\MyQWaveKinematicView">
+      <UniqueIdentifier>{FABC385E-FE92-3FCC-8408-23C4B7AE886E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQEvaluationView\WaveDynamic\MyQWaveProfileView">
+      <UniqueIdentifier>{1B686F7D-1EE8-356C-9056-345A12FEABDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQDockWidget\MyQPropertiesExplorer">
+      <UniqueIdentifier>{DAA2BE83-0C16-39A5-AE09-8B9B7229D1F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQDockWidget\MyQSolutionExplorer">
+      <UniqueIdentifier>{2353E457-3994-32AC-B62E-12967B94CDCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62AD18EF-8CD8-341C-AEDB-0B154BE5C60D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQCustomTable">
+      <UniqueIdentifier>{099F80DF-58A8-3A66-9661-030F4D3D92AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQDockWidget">
+      <UniqueIdentifier>{EFB38BD2-2969-33E6-8183-AB8C97DB114B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQEvaluationView">
+      <UniqueIdentifier>{7DBA21A3-12BD-305A-B856-74158918D8DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQItemModel">
+      <UniqueIdentifier>{24AFF08F-9729-3A20-828B-77C295185963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQMenu">
+      <UniqueIdentifier>{7F6107CE-4848-3817-BB28-4E4BBD3B4537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQShell">
+      <UniqueIdentifier>{24AAC21C-397B-3EF1-AD98-0F1DB15A82A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQTableView">
+      <UniqueIdentifier>{FA01CABC-1379-36FD-AF3E-81034F908A28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQTreeView">
+      <UniqueIdentifier>{63857A57-F33E-3B32-A653-A83602CC3FD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQUtilities">
+      <UniqueIdentifier>{9A636B58-EF92-3AFC-9C23-656007DAD8F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyQViewFactoryImp">
+      <UniqueIdentifier>{C51BA26D-11AF-31B6-AD08-C49B26DEF1B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

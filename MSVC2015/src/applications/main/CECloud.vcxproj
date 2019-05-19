@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5B72EECC-9C9F-33BF-B54E-2D1B90056F26}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CECloud</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CECloud.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CECloud</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CECloud.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CECloud</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CECloud.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CECloud</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CECloud.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CECloud</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\qtView\Debug\qtView.lib;QCustomPlot.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5PrintSupportd.lib;QCustomPlot.lib;..\presenter\Debug\presenter.lib;..\item\Debug\item.lib;..\model\Debug\model.lib;..\utilities\Debug\utilities.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Widgetsd.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Guid.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Sven/Documents/CompositeApp/lib/QCustomPlot/MSVC2015/Debug;C:/Users/Sven/Documents/CompositeApp/lib/QCustomPlot/MSVC2015/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/main/Debug/CECloud.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Debug/CECloud.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\qtView\Release\qtView.lib;QCustomPlot.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5PrintSupport.lib;QCustomPlot.lib;..\presenter\Release\presenter.lib;..\item\Release\item.lib;..\model\Release\model.lib;..\utilities\Release\utilities.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Widgets.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Gui.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Sven/Documents/CompositeApp/lib/QCustomPlot/MSVC2015/Debug;C:/Users/Sven/Documents/CompositeApp/lib/QCustomPlot/MSVC2015/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/main/Release/CECloud.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Release/CECloud.pdb</ProgramDataBaseFile>
+      <SubSystem>Native</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\qtView\MinSizeRel\qtView.lib;QCustomPlot.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5PrintSupport.lib;QCustomPlot.lib;..\presenter\MinSizeRel\presenter.lib;..\item\MinSizeRel\item.lib;..\model\MinSizeRel\model.lib;..\utilities\MinSizeRel\utilities.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Widgets.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Gui.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Sven/Documents/CompositeApp/lib/QCustomPlot/MSVC2015/Debug;C:/Users/Sven/Documents/CompositeApp/lib/QCustomPlot/MSVC2015/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/main/MinSizeRel/CECloud.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/MinSizeRel/CECloud.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_PRINTSUPPORT_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src\applications\main;C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;C:\Users\Sven\Documents\CompositeApp\src\3rdParty\QCustomPlot;C:\Libraries\Qt\Qt5.5.1\qtbase\include;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtWidgets;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtGui;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtANGLE;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtCore;D:\Qt\Qt5.5.1\qtbase\mkspecs\win32-msvc2015;C:\Libraries\Qt\Qt5.5.1\qtbase\include\QtPrintSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\qtView\RelWithDebInfo\qtView.lib;QCustomPlot.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5PrintSupport.lib;QCustomPlot.lib;..\presenter\RelWithDebInfo\presenter.lib;..\item\RelWithDebInfo\item.lib;..\model\RelWithDebInfo\model.lib;..\utilities\RelWithDebInfo\utilities.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Widgets.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Gui.lib;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Sven/Documents/CompositeApp/lib/QCustomPlot/MSVC2015/Debug;C:/Users/Sven/Documents/CompositeApp/lib/QCustomPlot/MSVC2015/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/main/RelWithDebInfo/CECloud.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/RelWithDebInfo/CECloud.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/main/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Qt\Link.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\QCustomPlot\Link.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/main/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Qt\Link.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\QCustomPlot\Link.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/main/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Qt\Link.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\QCustomPlot\Link.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/main/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Qt\Link.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\QCustomPlot\Link.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Libraries\Qt\Qt5.5.1\qtbase\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\main\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\applications\main\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/ZERO_CHECK.vcxproj">
+      <Project>92BF220F-C07E-308D-BC74-111A806BD3B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/item/item.vcxproj">
+      <Project>BC0EE014-ED1E-3400-99ED-F922178EE71E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/model.vcxproj">
+      <Project>DB23072E-A040-3CA7-9204-B34EE5C54097</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/presenter/presenter.vcxproj">
+      <Project>F6795992-CEBA-38CB-94CF-32A967B1F2A8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/qtView/qtView.vcxproj">
+      <Project>A50CA9D5-BD53-3896-B642-CDAD29115FF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/utilities.vcxproj">
+      <Project>AFA8CDCF-7415-35B8-BAD6-2CEFE8F08767</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

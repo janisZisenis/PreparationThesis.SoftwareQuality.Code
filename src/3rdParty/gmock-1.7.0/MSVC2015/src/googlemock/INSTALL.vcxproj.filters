@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\gmock-1.7.0\MSVC2015\CMakeFiles\5334962d604782f31d8e6669ca746a8a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5A58DB57-AE00-32F9-B3DF-872FF02B2918}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

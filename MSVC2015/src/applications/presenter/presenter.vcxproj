@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F6795992-CEBA-38CB-94CF-32A967B1F2A8}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>presenter</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">presenter.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">presenter</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">presenter.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">presenter</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">presenter.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">presenter</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">presenter.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">presenter</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";presenter_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";presenter_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\item\Debug\item.lib;..\model\Debug\model.lib;..\utilities\Debug\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/presenter/Debug/presenter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Debug/presenter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";presenter_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";presenter_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\item\Release\item.lib;..\model\Release\model.lib;..\utilities\Release\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/presenter/Release/presenter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Release/presenter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";presenter_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";presenter_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\item\MinSizeRel\item.lib;..\model\MinSizeRel\model.lib;..\utilities\MinSizeRel\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/presenter/MinSizeRel/presenter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/MinSizeRel/presenter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";presenter_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";presenter_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\item\RelWithDebInfo\item.lib;..\model\RelWithDebInfo\model.lib;..\utilities\RelWithDebInfo\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/presenter/RelWithDebInfo/presenter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/RelWithDebInfo/presenter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/presenter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\presenter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/presenter/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Boost\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CoordinateSystemRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\DefaultRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\MorisonRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\PileRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentTransportRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaterRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveDynamicRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\Shell\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\exportheader.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\presenter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/presenter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\presenter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/presenter/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Boost\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CoordinateSystemRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\DefaultRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\MorisonRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\PileRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentTransportRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaterRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveDynamicRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\Shell\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\exportheader.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\presenter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/presenter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\presenter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/presenter/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Boost\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CoordinateSystemRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\DefaultRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\MorisonRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\PileRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentTransportRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaterRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveDynamicRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\Shell\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\exportheader.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\presenter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/presenter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\presenter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/presenter/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Boost\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CoordinateSystemRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\DefaultRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\MorisonRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\PileRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentTransportRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaterRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveDynamicRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveRootBuilder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\presenter\Shell\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\exportheader.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\presenter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\View.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\ViewMenu.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\ViewMenuPresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\AddNodeMenu.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\AddNodeMenuPresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\EditMenu.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\EditMenuPresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\EvaluateMenu.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\EvaluateMenuPresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\ViewFactory.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\BindingMenu.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\BindingMenuPresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\WaveKinematicPresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\WaveKinematicView.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\WaveProfilePresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\WaveProfileView.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\SelectedNodeAccess.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\SolutionExplorer.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\SolutionExplorerPresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\PropertiesExplorer.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\PropertiesExplorerPresenter.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\AllRootBuilderIncludes.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\RootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CoordinateSystemRootBuilder\CoordinateSystemRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\DefaultRootBuilder\DefaultRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\MorisonRootBuilder\MorisonRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\PileRootBuilder\PileRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentRootBuilder\SedimentRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentTransportRootBuilder\SedimentTransportRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaterRootBuilder\WaterRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveDynamicRootBuilder\WaveDynamicRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveRootBuilder\WaveRootBuilder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\RootBuilderFactory.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\RootBuilderFactoryImp.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\Shell\Shell.h" />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\ViewMenuPresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\AddNodeMenuPresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\EditMenuPresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\EvaluateMenuPresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\BindingMenuPresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\WaveKinematicPresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\WaveProfilePresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\SolutionExplorerPresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\PropertiesExplorerPresenter.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\RootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CoordinateSystemRootBuilder\CoordinateSystemRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\DefaultRootBuilder\DefaultRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\MorisonRootBuilder\MorisonRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\PileRootBuilder\PileRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentRootBuilder\SedimentRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentTransportRootBuilder\SedimentTransportRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaterRootBuilder\WaterRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveDynamicRootBuilder\WaveDynamicRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveRootBuilder\WaveRootBuilder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\RootBuilderFactoryImp.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/ZERO_CHECK.vcxproj">
+      <Project>92BF220F-C07E-308D-BC74-111A806BD3B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/item/item.vcxproj">
+      <Project>BC0EE014-ED1E-3400-99ED-F922178EE71E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/model.vcxproj">
+      <Project>DB23072E-A040-3CA7-9204-B34EE5C54097</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/utilities.vcxproj">
+      <Project>AFA8CDCF-7415-35B8-BAD6-2CEFE8F08767</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

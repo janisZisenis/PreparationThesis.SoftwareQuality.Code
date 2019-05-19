@@ -1,0 +1,583 @@
+﻿  Generating moc source qtView_automoc.dir/moc_MyQPropertiesE_5NLUU6SHPDHBMH.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQSolutionExp_A3NF52SMYUZRSM.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQWaveKinemat_6DKC6OFIU6K5SS.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQWaveProfile_C2CWZVDNUMXSU4.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQAddNodeMenu_VORKCO7N6JM5F5.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQBindingMenu_MBZO2XKVLSEOYU.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQEditMenu_5BICBJWSKZ5IY2.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQEvaluateMen_Z2UQY6VS373VRE.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQViewMenu_XEXN4ABWBEXNT2.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQItemTableMo_LDGDEI5GMD6GO7.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQTableView_DVJSVTL4KX3RPC.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQItemTreeMod_CFJE2PBWVIE2SC.cpp
+  Generating moc source qtView_automoc.dir/moc_MyQTreeView_V53GXEBOZFVCSY.cpp
+  Generating moc compilation qtView_automoc.cpp
+  Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/qtView/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\qtView\CMakeFiles\generate.stamp is up-to-date.
+  MyQCustomTable.cpp
+  MyQDockWidget.cpp
+  MyQPropertiesExplorer.cpp
+D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(349): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(336): note: see declaration of 'std::_Uninitialized_copy0'
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled
+  MyQSolutionExplorer.cpp
+D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(349): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(336): note: see declaration of 'std::_Uninitialized_copy0'
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled
+  MyQWaveKinematicView.cpp
+  MyQWaveProfileView.cpp
+D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(349): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(336): note: see declaration of 'std::_Uninitialized_copy0'
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled
+  MyQItemModel.cpp
+D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(349): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(336): note: see declaration of 'std::_Uninitialized_copy0'
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled
+  MyQMenu.cpp
+  MyQAddNodeMenu.cpp
+  MyQBindingMenu.cpp
+  MyQEditMenu.cpp
+  MyQEvaluateMenu.cpp
+  MyQViewMenu.cpp
+  MyQShell.cpp
+  MyQItemTableModel.cpp
+D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(349): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(336): note: see declaration of 'std::_Uninitialized_copy0'
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled
+  MyQTableView.cpp
+  MyQItemTreeModel.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/HierarchicItem.h(20): warning C4251: 'HierarchicItem::beginInsertChild': class 'boost::signals2::signal<void (HierarchicItemPtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchicItemPtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchicItem'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchicItemPtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/HierarchicItem.h(21): warning C4251: 'HierarchicItem::endInsertChild': class 'boost::signals2::signal<void (void),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchicItem'
+          with
+          [
+              Group=int,
+              Signature=void (void),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/HierarchicItem.h(22): warning C4251: 'HierarchicItem::beginRemoveChild': class 'boost::signals2::signal<void (HierarchicItemPtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchicItemPtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchicItem'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchicItemPtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/HierarchicItem.h(23): warning C4251: 'HierarchicItem::endRemoveChild': class 'boost::signals2::signal<void (void),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchicItem'
+          with
+          [
+              Group=int,
+              Signature=void (void),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/HierarchicItem.h(24): warning C4251: 'HierarchicItem::beginReplaceChild': class 'boost::signals2::signal<void (HierarchicItemPtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchicItemPtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchicItem'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchicItemPtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/HierarchicItem.h(25): warning C4251: 'HierarchicItem::endReplaceChild': class 'boost::signals2::signal<void (void),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchicItem'
+          with
+          [
+              Group=int,
+              Signature=void (void),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/HierarchicItem.h(26): warning C4251: 'HierarchicItem::itemDataChanged': class 'boost::signals2::signal<void (HierarchicItemPtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchicItemPtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchicItem'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchicItemPtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/HierarchicItem.h(57): warning C4251: 'HierarchicItem::parent': class 'std::weak_ptr<HierarchicItem>' needs to have dll-interface to be used by clients of class 'HierarchicItem'
+C:\Users\Sven\Documents\CompositeApp\src\item/HierarchicItem/TreeItem/TreeItem.h(37): warning C4251: 'TreeItem::itemFactory': class 'std::shared_ptr<TreeItemFactory>' needs to have dll-interface to be used by clients of class 'TreeItem'
+D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(349): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(336): note: see declaration of 'std::_Uninitialized_copy0'
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled
+  MyQTreeView.cpp
+  MyQViewFactoryImp.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(39): warning C4251: 'Morison::pile': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(40): warning C4251: 'Morison::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(41): warning C4251: 'Morison::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(37): warning C4251: 'SedimentTransport::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(38): warning C4251: 'SedimentTransport::sediment': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(39): warning C4251: 'SedimentTransport::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\presenter/EvaluationViewPresenter/WaveDynamic/WaveProfilePresenter/WaveProfilePresenter.h(31): warning C4251: 'WaveProfilePresenter::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'WaveProfilePresenter'
+D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(349): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(336): note: see declaration of 'std::_Uninitialized_copy0'
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Libraries\boost_1_60_0\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled
+  qtView_automoc.cpp
+  Generating Code...
+     Creating library C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/qtView/Debug/qtView.lib and object C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/qtView/Debug/qtView.exp
+  qtView.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Debug\qtView.dll
+  qtView.vcxproj -> C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Debug/qtView.pdb (Full PDB)

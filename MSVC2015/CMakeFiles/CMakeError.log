@@ -1,0 +1,45 @@
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_332b3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:15 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTC_332b3.dir\Debug\" wird erstellt.
+  Das Verzeichnis "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTC_332b3.dir\Debug\cmTC_332b3.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTC_332b3.dir\Debug\cmTC_332b3.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_332b3.dir\Debug\\" /Fd"cmTC_332b3.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_332b3.dir\Debug\\" /Fd"cmTC_332b3.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx
+  
+  src.cxx
+C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__': undeclared identifier [C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj]
+C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj]
+C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(1): error C2448: '__attribute__': function-style initializer appears to be a function definition [C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj]
+Die Erstellung des Projekts "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+"C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj" (Standardziel) (1) ->
+(ClCompile Ziel) -> 
+  C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__': undeclared identifier [C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj]
+  C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj]
+  C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(1): error C2448: '__attribute__': function-style initializer appears to be a function definition [C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_332b3.vcxproj]
+
+    0 Warnung(en)
+    3 Fehler
+
+Verstrichene Zeit 00:00:00.38
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

@@ -1,0 +1,1572 @@
+﻿  Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp is up-to-date.
+  CoordinateSystemBinder.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\binder\coordinatesystembinder\CoordinateSystemBinder.h(15): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'CoordinateSystemBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\coordinatesystembinder\CoordinateSystemBinder.h(15): note: see declaration of 'CoordinateSystemBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\coordinatesystembinder\CoordinateSystemBinder.h(16): warning C4275: non dll-interface class 'WaveDynamicVisitor' used as base for dll-interface class 'CoordinateSystemBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamicVisitor.h(10): note: see declaration of 'WaveDynamicVisitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\coordinatesystembinder\CoordinateSystemBinder.h(15): note: see declaration of 'CoordinateSystemBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\coordinatesystembinder\CoordinateSystemBinder.h(26): warning C4251: 'CoordinateSystemBinder::child': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'CoordinateSystemBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+  MorisonBinder.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\binder\morisonbinder\MorisonBinder.h(13): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'MorisonBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\morisonbinder\MorisonBinder.h(13): note: see declaration of 'MorisonBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\morisonbinder\MorisonBinder.h(20): warning C4251: 'MorisonBinder::child': class 'std::shared_ptr<Morison>' needs to have dll-interface to be used by clients of class 'MorisonBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(39): warning C4251: 'Morison::pile': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(40): warning C4251: 'Morison::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(41): warning C4251: 'Morison::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'Morison'
+  PileBinder.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\binder\pilebinder\PileBinder.h(15): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'PileBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\pilebinder\PileBinder.h(15): note: see declaration of 'PileBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\pilebinder\PileBinder.h(16): warning C4275: non dll-interface class 'MorisonVisitor' used as base for dll-interface class 'PileBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/MorisonVisitor.h(11): note: see declaration of 'MorisonVisitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\pilebinder\PileBinder.h(15): note: see declaration of 'PileBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\pilebinder\PileBinder.h(25): warning C4251: 'PileBinder::child': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'PileBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(39): warning C4251: 'Morison::pile': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(40): warning C4251: 'Morison::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(41): warning C4251: 'Morison::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'Morison'
+  SedimentBinder.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\binder\sedimentbinder\SedimentBinder.h(15): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'SedimentBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\sedimentbinder\SedimentBinder.h(15): note: see declaration of 'SedimentBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\sedimentbinder\SedimentBinder.h(16): warning C4275: non dll-interface class 'SedimentTransportVisitor' used as base for dll-interface class 'SedimentBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransportVisitor.h(11): note: see declaration of 'SedimentTransportVisitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\sedimentbinder\SedimentBinder.h(15): note: see declaration of 'SedimentBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\sedimentbinder\SedimentBinder.h(25): warning C4251: 'SedimentBinder::child': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(37): warning C4251: 'SedimentTransport::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(38): warning C4251: 'SedimentTransport::sediment': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(39): warning C4251: 'SedimentTransport::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+  SedimentTransportBinder.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\binder\sedimenttransportbinder\SedimentTransportBinder.h(13): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'SedimentTransportBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\sedimenttransportbinder\SedimentTransportBinder.h(13): note: see declaration of 'SedimentTransportBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\sedimenttransportbinder\SedimentTransportBinder.h(20): warning C4251: 'SedimentTransportBinder::child': class 'std::shared_ptr<SedimentTransport>' needs to have dll-interface to be used by clients of class 'SedimentTransportBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(37): warning C4251: 'SedimentTransport::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(38): warning C4251: 'SedimentTransport::sediment': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(39): warning C4251: 'SedimentTransport::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+  WaterBinder.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\binder\waterbinder\WaterBinder.h(16): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'WaterBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\waterbinder\WaterBinder.h(16): note: see declaration of 'WaterBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\waterbinder\WaterBinder.h(17): warning C4275: non dll-interface class 'MorisonVisitor' used as base for dll-interface class 'WaterBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/MorisonVisitor.h(11): note: see declaration of 'MorisonVisitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\waterbinder\WaterBinder.h(16): note: see declaration of 'WaterBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\waterbinder\WaterBinder.h(18): warning C4275: non dll-interface class 'SedimentTransportVisitor' used as base for dll-interface class 'WaterBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransportVisitor.h(11): note: see declaration of 'SedimentTransportVisitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\waterbinder\WaterBinder.h(16): note: see declaration of 'WaterBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\waterbinder\WaterBinder.h(29): warning C4251: 'WaterBinder::child': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'WaterBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(39): warning C4251: 'Morison::pile': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(40): warning C4251: 'Morison::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(41): warning C4251: 'Morison::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(37): warning C4251: 'SedimentTransport::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(38): warning C4251: 'SedimentTransport::sediment': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(39): warning C4251: 'SedimentTransport::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+  WaveBinder.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\binder\wavebinder\WaveBinder.h(15): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'WaveBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\wavebinder\WaveBinder.h(15): note: see declaration of 'WaveBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\wavebinder\WaveBinder.h(16): warning C4275: non dll-interface class 'WaveDynamicVisitor' used as base for dll-interface class 'WaveBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamicVisitor.h(10): note: see declaration of 'WaveDynamicVisitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\wavebinder\WaveBinder.h(15): note: see declaration of 'WaveBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\wavebinder\WaveBinder.h(25): warning C4251: 'WaveBinder::child': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+  WaveDynamicBinder.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\binder\wavedynamicbinder\WaveDynamicBinder.h(16): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'WaveDynamicBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\wavedynamicbinder\WaveDynamicBinder.h(16): note: see declaration of 'WaveDynamicBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\wavedynamicbinder\WaveDynamicBinder.h(17): warning C4275: non dll-interface class 'MorisonVisitor' used as base for dll-interface class 'WaveDynamicBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/MorisonVisitor.h(11): note: see declaration of 'MorisonVisitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\wavedynamicbinder\WaveDynamicBinder.h(16): note: see declaration of 'WaveDynamicBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\wavedynamicbinder\WaveDynamicBinder.h(18): warning C4275: non dll-interface class 'SedimentTransportVisitor' used as base for dll-interface class 'WaveDynamicBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransportVisitor.h(11): note: see declaration of 'SedimentTransportVisitor'
+  c:\users\sven\documents\compositeapp\src\model\binder\wavedynamicbinder\WaveDynamicBinder.h(16): note: see declaration of 'WaveDynamicBinder'
+c:\users\sven\documents\compositeapp\src\model\binder\wavedynamicbinder\WaveDynamicBinder.h(28): warning C4251: 'WaveDynamicBinder::child': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'WaveDynamicBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(39): warning C4251: 'Morison::pile': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(40): warning C4251: 'Morison::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(41): warning C4251: 'Morison::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(37): warning C4251: 'SedimentTransport::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(38): warning C4251: 'SedimentTransport::sediment': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(39): warning C4251: 'SedimentTransport::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+  AddNodeCommand.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\utilities/CommandQueue/Command.h(17): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'CommandException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/CommandQueue/Command.h(17): note: see declaration of 'CommandException'
+c:\users\sven\documents\compositeapp\src\model\commands\AddNodeCommand.h(29): warning C4251: 'AddNodeCommand::addRemoveNodeService': class 'std::shared_ptr<AddRemoveNodeService>' needs to have dll-interface to be used by clients of class 'AddNodeCommand'
+c:\users\sven\documents\compositeapp\src\model\commands\AddNodeCommand.h(30): warning C4251: 'AddNodeCommand::node': class 'std::shared_ptr<HierarchyNode>' needs to have dll-interface to be used by clients of class 'AddNodeCommand'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model\Commands\AddNodeCommand.cpp(18): warning C4101: 'e': unreferenced local variable
+  EditCommand.cpp
+C:\Users\Sven\Documents\CompositeApp\src\utilities/CommandQueue/Command.h(17): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'CommandException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/CommandQueue/Command.h(17): note: see declaration of 'CommandException'
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\commands\EditCommand.h(27): warning C4251: 'EditCommand::editor': class 'std::shared_ptr<Editor>' needs to have dll-interface to be used by clients of class 'EditCommand'
+c:\users\sven\documents\compositeapp\src\model\commands\EditCommand.h(28): warning C4251: 'EditCommand::propertyName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'EditCommand'
+c:\users\sven\documents\compositeapp\src\model\commands\EditCommand.h(29): warning C4251: 'EditCommand::exePropertyValue': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'EditCommand'
+c:\users\sven\documents\compositeapp\src\model\commands\EditCommand.h(30): warning C4251: 'EditCommand::undoPropertyValue': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'EditCommand'
+C:\Users\Sven\Documents\CompositeApp\src\model\Commands\EditCommand.cpp(18): warning C4101: 'e': unreferenced local variable
+  VisitorCommand.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\utilities/CommandQueue/Command.h(17): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'CommandException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/CommandQueue/Command.h(17): note: see declaration of 'CommandException'
+c:\users\sven\documents\compositeapp\src\model\commands\VisitorCommand.h(26): warning C4251: 'VisitorCommand::visitor': class 'std::shared_ptr<Visitor>' needs to have dll-interface to be used by clients of class 'VisitorCommand'
+c:\users\sven\documents\compositeapp\src\model\commands\VisitorCommand.h(27): warning C4251: 'VisitorCommand::visitable': class 'std::shared_ptr<Visitable>' needs to have dll-interface to be used by clients of class 'VisitorCommand'
+C:\Users\Sven\Documents\CompositeApp\src\model\Commands\VisitorCommand.cpp(17): warning C4101: 'e': unreferenced local variable
+  Editor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+  CoordinateSystemEditor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\editor\coordinatesystemeditor\CoordinateSystemEditor.h(22): warning C4251: 'CoordinateSystemEditor::node': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'CoordinateSystemEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+  MorisonEditor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\editor\morisoneditor\MorisonEditor.h(22): warning C4251: 'MorisonEditor::node': class 'std::shared_ptr<Morison>' needs to have dll-interface to be used by clients of class 'MorisonEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(39): warning C4251: 'Morison::pile': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(40): warning C4251: 'Morison::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(41): warning C4251: 'Morison::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'Morison'
+  PileEditor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\editor\pileeditor\PileEditor.h(21): warning C4251: 'PileEditor::node': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'PileEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+  SedimentEditor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\editor\sedimenteditor\SedimentEditor.h(21): warning C4251: 'SedimentEditor::node': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+  SedimentTransportEditor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\editor\sedimenttransporteditor\SedimentTransportEditor.h(21): warning C4251: 'SedimentTransportEditor::node': class 'std::shared_ptr<SedimentTransport>' needs to have dll-interface to be used by clients of class 'SedimentTransportEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(37): warning C4251: 'SedimentTransport::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(38): warning C4251: 'SedimentTransport::sediment': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(39): warning C4251: 'SedimentTransport::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+  WaterEditor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\editor\watereditor\WaterEditor.h(21): warning C4251: 'WaterEditor::node': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'WaterEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+  WaveDynamicEditor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\editor\wavedynamiceditor\WaveDynamicEditor.h(21): warning C4251: 'WaveDynamicEditor::node': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'WaveDynamicEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+  WaveEditor.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\editor\waveeditor\WaveEditor.h(21): warning C4251: 'WaveEditor::node': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+  Generating Code...
+c:\users\sven\documents\compositeapp\src\model\editor\waveeditor\waveeditor.cpp(30): warning C4715: 'WaveEditor::getPropertyValue': not all control paths return a value
+c:\users\sven\documents\compositeapp\src\model\editor\wavedynamiceditor\wavedynamiceditor.cpp(22): warning C4715: 'WaveDynamicEditor::getPropertyValue': not all control paths return a value
+c:\users\sven\documents\compositeapp\src\model\editor\watereditor\watereditor.cpp(27): warning C4715: 'WaterEditor::getPropertyValue': not all control paths return a value
+c:\users\sven\documents\compositeapp\src\model\editor\sedimenttransporteditor\sedimenttransporteditor.cpp(22): warning C4715: 'SedimentTransportEditor::getPropertyValue': not all control paths return a value
+c:\users\sven\documents\compositeapp\src\model\editor\sedimenteditor\sedimenteditor.cpp(25): warning C4715: 'SedimentEditor::getPropertyValue': not all control paths return a value
+c:\users\sven\documents\compositeapp\src\model\editor\pileeditor\pileeditor.cpp(26): warning C4715: 'PileEditor::getPropertyValue': not all control paths return a value
+c:\users\sven\documents\compositeapp\src\model\editor\morisoneditor\morisoneditor.cpp(21): warning C4715: 'MorisonEditor::getPropertyValue': not all control paths return a value
+c:\users\sven\documents\compositeapp\src\model\editor\coordinatesystemeditor\coordinatesystemeditor.cpp(29): warning C4715: 'CoordinateSystemEditor::getPropertyValue': not all control paths return a value
+  Compiling...
+  HierarchyNode.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+  HierarchyNodeProperties.cpp
+  Units.cpp
+  CoordinateSystem.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/CoordinateSystemBinder/CoordinateSystemBinder.h(15): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'CoordinateSystemBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/CoordinateSystemBinder/CoordinateSystemBinder.h(15): note: see declaration of 'CoordinateSystemBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/CoordinateSystemBinder/CoordinateSystemBinder.h(16): warning C4275: non dll-interface class 'WaveDynamicVisitor' used as base for dll-interface class 'CoordinateSystemBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamicVisitor.h(10): note: see declaration of 'WaveDynamicVisitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/CoordinateSystemBinder/CoordinateSystemBinder.h(15): note: see declaration of 'CoordinateSystemBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/CoordinateSystemBinder/CoordinateSystemBinder.h(26): warning C4251: 'CoordinateSystemBinder::child': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'CoordinateSystemBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Editor/CoordinateSystemEditor/CoordinateSystemEditor.h(22): warning C4251: 'CoordinateSystemEditor::node': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'CoordinateSystemEditor'
+  CoordinateSystemProperties.cpp
+  CoordinateSystemType.cpp
+  Morison.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\morison\Morison.h(39): warning C4251: 'Morison::pile': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'Morison'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\morison\Morison.h(40): warning C4251: 'Morison::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'Morison'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\morison\Morison.h(41): warning C4251: 'Morison::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/MorisonBinder/MorisonBinder.h(13): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'MorisonBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/MorisonBinder/MorisonBinder.h(13): note: see declaration of 'MorisonBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/MorisonBinder/MorisonBinder.h(20): warning C4251: 'MorisonBinder::child': class 'std::shared_ptr<Morison>' needs to have dll-interface to be used by clients of class 'MorisonBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Editor/MorisonEditor/MorisonEditor.h(22): warning C4251: 'MorisonEditor::node': class 'std::shared_ptr<Morison>' needs to have dll-interface to be used by clients of class 'MorisonEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+  MorisonProperties.cpp
+  MorisonType.cpp
+  Pile.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/PileBinder/PileBinder.h(15): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'PileBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/PileBinder/PileBinder.h(15): note: see declaration of 'PileBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/PileBinder/PileBinder.h(16): warning C4275: non dll-interface class 'MorisonVisitor' used as base for dll-interface class 'PileBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/MorisonVisitor.h(11): note: see declaration of 'MorisonVisitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/PileBinder/PileBinder.h(15): note: see declaration of 'PileBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/PileBinder/PileBinder.h(25): warning C4251: 'PileBinder::child': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'PileBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Editor/PileEditor/PileEditor.h(21): warning C4251: 'PileEditor::node': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'PileEditor'
+  PileProperties.cpp
+  PileType.cpp
+  ProjectHierarchy.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Observer/Subject.h(27): warning C4251: 'Subject::observers': class 'std::vector<std::weak_ptr<Observer>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Subject'
+          with
+          [
+              _Ty=std::weak_ptr<Observer>
+          ]
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\projecthierarchy\ProjectHierarchy.h(12): warning C4275: non dll-interface class 'AddRemoveNodeService' used as base for dll-interface class 'ProjectHierarchy'
+  c:\users\sven\documents\compositeapp\src\model\hierarchynode\projecthierarchy\AddRemoveNodeService.h(11): note: see declaration of 'AddRemoveNodeService'
+  c:\users\sven\documents\compositeapp\src\model\hierarchynode\projecthierarchy\ProjectHierarchy.h(12): note: see declaration of 'ProjectHierarchy'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\projecthierarchy\ProjectHierarchy.h(12): warning C4275: non dll-interface class 'ProjectHierarchyService' used as base for dll-interface class 'ProjectHierarchy'
+  c:\users\sven\documents\compositeapp\src\model\hierarchynode\projecthierarchy\ProjectHierarchyService.h(12): note: see declaration of 'ProjectHierarchyService'
+  c:\users\sven\documents\compositeapp\src\model\hierarchynode\projecthierarchy\ProjectHierarchy.h(12): note: see declaration of 'ProjectHierarchy'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\projecthierarchy\ProjectHierarchy.h(28): warning C4251: 'ProjectHierarchy::children': class 'std::vector<std::shared_ptr<HierarchyNode>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'ProjectHierarchy'
+          with
+          [
+              _Ty=std::shared_ptr<HierarchyNode>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\ProjectHierarchy.cpp(21): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\ProjectHierarchy.cpp(30): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  Sediment.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/SedimentBinder/SedimentBinder.h(15): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'SedimentBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/SedimentBinder/SedimentBinder.h(15): note: see declaration of 'SedimentBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/SedimentBinder/SedimentBinder.h(16): warning C4275: non dll-interface class 'SedimentTransportVisitor' used as base for dll-interface class 'SedimentBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransportVisitor.h(11): note: see declaration of 'SedimentTransportVisitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/SedimentBinder/SedimentBinder.h(15): note: see declaration of 'SedimentBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/SedimentBinder/SedimentBinder.h(25): warning C4251: 'SedimentBinder::child': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Editor/SedimentEditor/SedimentEditor.h(21): warning C4251: 'SedimentEditor::node': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentEditor'
+  SedimentProperties.cpp
+  SedimentType.cpp
+  SedimentTransport.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\sedimenttransport\SedimentTransport.h(37): warning C4251: 'SedimentTransport::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\sedimenttransport\SedimentTransport.h(38): warning C4251: 'SedimentTransport::sediment': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\sedimenttransport\SedimentTransport.h(39): warning C4251: 'SedimentTransport::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/SedimentTransportBinder/SedimentTransportBinder.h(13): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'SedimentTransportBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/SedimentTransportBinder/SedimentTransportBinder.h(13): note: see declaration of 'SedimentTransportBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/SedimentTransportBinder/SedimentTransportBinder.h(20): warning C4251: 'SedimentTransportBinder::child': class 'std::shared_ptr<SedimentTransport>' needs to have dll-interface to be used by clients of class 'SedimentTransportBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Editor/SedimentTransportEditor/SedimentTransportEditor.h(21): warning C4251: 'SedimentTransportEditor::node': class 'std::shared_ptr<SedimentTransport>' needs to have dll-interface to be used by clients of class 'SedimentTransportEditor'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+  SedimentTransportProperties.cpp
+  SedimentTransportType.cpp
+  Water.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaterBinder/WaterBinder.h(16): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'WaterBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaterBinder/WaterBinder.h(16): note: see declaration of 'WaterBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaterBinder/WaterBinder.h(17): warning C4275: non dll-interface class 'MorisonVisitor' used as base for dll-interface class 'WaterBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/MorisonVisitor.h(11): note: see declaration of 'MorisonVisitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaterBinder/WaterBinder.h(16): note: see declaration of 'WaterBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaterBinder/WaterBinder.h(18): warning C4275: non dll-interface class 'SedimentTransportVisitor' used as base for dll-interface class 'WaterBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransportVisitor.h(11): note: see declaration of 'SedimentTransportVisitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaterBinder/WaterBinder.h(16): note: see declaration of 'WaterBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaterBinder/WaterBinder.h(29): warning C4251: 'WaterBinder::child': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'WaterBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Editor/WaterEditor/WaterEditor.h(21): warning C4251: 'WaterEditor::node': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'WaterEditor'
+  Generating Code...
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\projecthierarchy\projecthierarchy.cpp(41): warning C4717: 'ProjectHierarchy::sharedFromThis': recursive on all control paths, function will cause runtime stack overflow
+  Compiling...
+  WaterProperties.cpp
+  WaterType.cpp
+  Wave.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveBinder/WaveBinder.h(15): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'WaveBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveBinder/WaveBinder.h(15): note: see declaration of 'WaveBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveBinder/WaveBinder.h(16): warning C4275: non dll-interface class 'WaveDynamicVisitor' used as base for dll-interface class 'WaveBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamicVisitor.h(10): note: see declaration of 'WaveDynamicVisitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveBinder/WaveBinder.h(15): note: see declaration of 'WaveBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveBinder/WaveBinder.h(25): warning C4251: 'WaveBinder::child': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Editor/WaveEditor/WaveEditor.h(21): warning C4251: 'WaveEditor::node': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveEditor'
+  WaveProperties.cpp
+  WaveType.cpp
+  WaveDynamic.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\wavedynamic\WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+c:\users\sven\documents\compositeapp\src\model\hierarchynode\wavedynamic\WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveDynamicBinder/WaveDynamicBinder.h(16): warning C4275: non dll-interface class 'Visitor' used as base for dll-interface class 'WaveDynamicBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Visitor/Visitor.h(8): note: see declaration of 'Visitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveDynamicBinder/WaveDynamicBinder.h(16): note: see declaration of 'WaveDynamicBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveDynamicBinder/WaveDynamicBinder.h(17): warning C4275: non dll-interface class 'MorisonVisitor' used as base for dll-interface class 'WaveDynamicBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/MorisonVisitor.h(11): note: see declaration of 'MorisonVisitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveDynamicBinder/WaveDynamicBinder.h(16): note: see declaration of 'WaveDynamicBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveDynamicBinder/WaveDynamicBinder.h(18): warning C4275: non dll-interface class 'SedimentTransportVisitor' used as base for dll-interface class 'WaveDynamicBinder'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransportVisitor.h(11): note: see declaration of 'SedimentTransportVisitor'
+  C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveDynamicBinder/WaveDynamicBinder.h(16): note: see declaration of 'WaveDynamicBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Binder/WaveDynamicBinder/WaveDynamicBinder.h(28): warning C4251: 'WaveDynamicBinder::child': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'WaveDynamicBinder'
+C:\Users\Sven\Documents\CompositeApp\src\model/Editor/WaveDynamicEditor/WaveDynamicEditor.h(21): warning C4251: 'WaveDynamicEditor::node': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'WaveDynamicEditor'
+  WaveDynamicProperties.cpp
+  WaveDynamicType.cpp
+  HierarchyNodeFactoryImp.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\model\hierarchynodefactory\HierarchyNodeFactoryImp.h(11): warning C4275: non dll-interface class 'HierarchyNodeFactory' used as base for dll-interface class 'HierarchyNodeFactoryImp'
+  C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNodeFactory/HierarchyNodeFactory.h(10): note: see declaration of 'HierarchyNodeFactory'
+  c:\users\sven\documents\compositeapp\src\model\hierarchynodefactory\HierarchyNodeFactoryImp.h(11): note: see declaration of 'HierarchyNodeFactoryImp'
+c:\users\sven\documents\compositeapp\src\model\hierarchynodefactory\HierarchyNodeFactoryImp.h(25): warning C4251: 'HierarchyNodeFactoryImp::nodeTypes': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'HierarchyNodeFactoryImp'
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(21): warning C4251: 'HierarchyNode::childInserted': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(22): warning C4251: 'HierarchyNode::childRemoved': class 'boost::signals2::signal<void (HierarchyNodePtr,int),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,int)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,int),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(23): warning C4251: 'HierarchyNode::childReplaced': class 'boost::signals2::signal<void (HierarchyNodePtr,std::string),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr,std::string)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr,std::string),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(24): warning C4251: 'HierarchyNode::nodeChanged': class 'boost::signals2::signal<void (HierarchyNodePtr),boost::signals2::optional_last_value<void>,int,std::less<Group>,boost::function<Signature>,boost::function<R (const boost::signals2::connection &,HierarchyNodePtr)>,boost::signals2::mutex>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+          with
+          [
+              Group=int,
+              Signature=void (HierarchyNodePtr),
+              R=void
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(46): warning C4251: 'HierarchyNode::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/HierarchyNode.h(47): warning C4251: 'HierarchyNode::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'HierarchyNode'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(39): warning C4251: 'Morison::pile': class 'std::shared_ptr<Pile>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(40): warning C4251: 'Morison::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/Morison/Morison.h(41): warning C4251: 'Morison::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'Morison'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(37): warning C4251: 'SedimentTransport::waveDynamic': class 'std::shared_ptr<WaveDynamic>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(38): warning C4251: 'SedimentTransport::sediment': class 'std::shared_ptr<Sediment>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/SedimentTransport/SedimentTransport.h(39): warning C4251: 'SedimentTransport::water': class 'std::shared_ptr<Water>' needs to have dll-interface to be used by clients of class 'SedimentTransport'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(52): warning C4251: 'WaveDynamic::coordinateSystem': class 'std::shared_ptr<CoordinateSystem>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+C:\Users\Sven\Documents\CompositeApp\src\model/HierarchyNode/WaveDynamic/WaveDynamic.h(53): warning C4251: 'WaveDynamic::wave': class 'std::shared_ptr<Wave>' needs to have dll-interface to be used by clients of class 'WaveDynamic'
+  Generating Code...
+     Creating library C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/Release/model.lib and object C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/Release/model.exp
+  model.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Release\model.dll

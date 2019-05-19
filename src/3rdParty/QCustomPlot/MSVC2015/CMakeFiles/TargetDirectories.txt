@@ -1,0 +1,3 @@
+C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/QCustomPlot/MSVC2015/CMakeFiles/QCustomPlot.dir
+C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/QCustomPlot/MSVC2015/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/QCustomPlot/MSVC2015/CMakeFiles/ZERO_CHECK.dir

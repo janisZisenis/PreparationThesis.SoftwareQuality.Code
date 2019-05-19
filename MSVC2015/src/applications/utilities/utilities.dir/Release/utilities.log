@@ -1,0 +1,131 @@
+﻿  Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\CMakeFiles\generate.stamp is up-to-date.
+  Command.cpp
+c:\users\sven\documents\compositeapp\src\utilities\commandqueue\Command.h(17): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'CommandException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  c:\users\sven\documents\compositeapp\src\utilities\commandqueue\Command.h(17): note: see declaration of 'CommandException'
+  CommandQueueImp.cpp
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Observer/Subject.h(27): warning C4251: 'Subject::observers': class 'std::vector<std::weak_ptr<Observer>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Subject'
+          with
+          [
+              _Ty=std::weak_ptr<Observer>
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\commandqueue\CommandQueueImp.h(15): warning C4275: non dll-interface class 'AddCommandService' used as base for dll-interface class 'CommandQueueImp'
+  c:\users\sven\documents\compositeapp\src\utilities\commandqueue\AddCommandService.h(10): note: see declaration of 'AddCommandService'
+  c:\users\sven\documents\compositeapp\src\utilities\commandqueue\CommandQueueImp.h(15): note: see declaration of 'CommandQueueImp'
+c:\users\sven\documents\compositeapp\src\utilities\commandqueue\CommandQueueImp.h(34): warning C4251: 'CommandQueueImp::commands': class 'std::deque<std::shared_ptr<Command>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'CommandQueueImp'
+          with
+          [
+              _Ty=std::shared_ptr<Command>
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\commandqueue\Command.h(17): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'CommandException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  c:\users\sven\documents\compositeapp\src\utilities\commandqueue\Command.h(17): note: see declaration of 'CommandException'
+  Composite.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+c:\users\sven\documents\compositeapp\src\utilities\composite\Composite.h(32): warning C4251: 'Composite::parent': class 'std::weak_ptr<Composite>' needs to have dll-interface to be used by clients of class 'Composite'
+  CompositeDecorator.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Composite/Composite.h(32): warning C4251: 'Composite::parent': class 'std::weak_ptr<Composite>' needs to have dll-interface to be used by clients of class 'Composite'
+c:\users\sven\documents\compositeapp\src\utilities\composite\compositedecorator\CompositeDecorator.h(26): warning C4251: 'CompositeDecorator::composite': class 'std::shared_ptr<Composite>' needs to have dll-interface to be used by clients of class 'CompositeDecorator'
+  FixedChildrenDecorator.cpp
+  CompositeImp.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Composite/Composite.h(32): warning C4251: 'Composite::parent': class 'std::weak_ptr<Composite>' needs to have dll-interface to be used by clients of class 'Composite'
+c:\users\sven\documents\compositeapp\src\utilities\composite\compositeimp\CompositeImp.h(29): warning C4251: 'CompositeImp::children': class 'std::vector<CompositePtr,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'CompositeImp'
+          with
+          [
+              _Ty=CompositePtr
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CompositeImp.cpp(16): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CompositeImp.cpp(37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CompositeImp.cpp(43): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  Leaf.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Composite/Composite.h(32): warning C4251: 'Composite::parent': class 'std::weak_ptr<Composite>' needs to have dll-interface to be used by clients of class 'Composite'
+  ConsoleLogger.cpp
+c:\users\sven\documents\compositeapp\src\utilities\logger\ConsoleLogger.h(10): warning C4275: non dll-interface class 'Logger' used as base for dll-interface class 'ConsoleLogger'
+  c:\users\sven\documents\compositeapp\src\utilities\logger\Logger.h(10): note: see declaration of 'Logger'
+  c:\users\sven\documents\compositeapp\src\utilities\logger\ConsoleLogger.h(10): note: see declaration of 'ConsoleLogger'
+  Math.cpp
+  LoggingObject.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+  Object.cpp
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\object\Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\object\Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  c:\users\sven\documents\compositeapp\src\utilities\object\Object.h(24): note: see declaration of 'SharedFromThisException'
+  Subject.cpp
+c:\users\sven\documents\compositeapp\src\utilities\observer\Subject.h(27): warning C4251: 'Subject::observers': class 'std::vector<std::weak_ptr<Observer>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Subject'
+          with
+          [
+              _Ty=std::weak_ptr<Observer>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\Subject.cpp(10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\Subject.cpp(17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  String.cpp
+  Visitable.cpp
+  Generating Code...
+     Creating library C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/Release/utilities.lib and object C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/Release/utilities.exp
+  utilities.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Release\utilities.dll

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\ViewMenuPresenter.cpp">
+      <Filter>MenuPresenter\ViewMenuPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\AddNodeMenuPresenter.cpp">
+      <Filter>MenuPresenter\AddNodeMenuPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\EditMenuPresenter.cpp">
+      <Filter>MenuPresenter\EditMenuPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\EvaluateMenuPresenter.cpp">
+      <Filter>MenuPresenter\EvaluateMenuPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\BindingMenuPresenter.cpp">
+      <Filter>MenuPresenter\BindingMenuPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\WaveKinematicPresenter.cpp">
+      <Filter>EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\WaveProfilePresenter.cpp">
+      <Filter>EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\SolutionExplorerPresenter.cpp">
+      <Filter>DockViewPresenter\SolutionExplorerPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\PropertiesExplorerPresenter.cpp">
+      <Filter>DockViewPresenter\PropertiesExplorerPresenter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\RootBuilder.cpp">
+      <Filter>RootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CoordinateSystemRootBuilder\CoordinateSystemRootBuilder.cpp">
+      <Filter>RootBuilder\CoordinateSystemRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\DefaultRootBuilder\DefaultRootBuilder.cpp">
+      <Filter>RootBuilder\DefaultRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\MorisonRootBuilder\MorisonRootBuilder.cpp">
+      <Filter>RootBuilder\MorisonRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\PileRootBuilder\PileRootBuilder.cpp">
+      <Filter>RootBuilder\PileRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentRootBuilder\SedimentRootBuilder.cpp">
+      <Filter>RootBuilder\SedimentRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentTransportRootBuilder\SedimentTransportRootBuilder.cpp">
+      <Filter>RootBuilder\SedimentTransportRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaterRootBuilder\WaterRootBuilder.cpp">
+      <Filter>RootBuilder\WaterRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveDynamicRootBuilder\WaveDynamicRootBuilder.cpp">
+      <Filter>RootBuilder\WaveDynamicRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveRootBuilder\WaveRootBuilder.cpp">
+      <Filter>RootBuilder\WaveRootBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\RootBuilderFactoryImp.cpp">
+      <Filter>RootBuilderFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\View.h">
+      <Filter>MenuPresenter\ViewMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\ViewMenu.h">
+      <Filter>MenuPresenter\ViewMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\ViewMenuPresenter\ViewMenuPresenter.h">
+      <Filter>MenuPresenter\ViewMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\AddNodeMenu.h">
+      <Filter>MenuPresenter\AddNodeMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\AddNodeMenuPresenter\AddNodeMenuPresenter.h">
+      <Filter>MenuPresenter\AddNodeMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\EditMenu.h">
+      <Filter>MenuPresenter\EditMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EditMenuPresenter\EditMenuPresenter.h">
+      <Filter>MenuPresenter\EditMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\EvaluateMenu.h">
+      <Filter>MenuPresenter\EvaluateMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\EvaluateMenuPresenter.h">
+      <Filter>MenuPresenter\EvaluateMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\EvaluateMenuPresenter\ViewFactory.h">
+      <Filter>MenuPresenter\EvaluateMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\BindingMenu.h">
+      <Filter>MenuPresenter\BindingMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\MenuPresenter\BindingMenuPresenter\BindingMenuPresenter.h">
+      <Filter>MenuPresenter\BindingMenuPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\WaveKinematicPresenter.h">
+      <Filter>EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter\WaveKinematicView.h">
+      <Filter>EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\WaveProfilePresenter.h">
+      <Filter>EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter\WaveProfileView.h">
+      <Filter>EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\SelectedNodeAccess.h">
+      <Filter>DockViewPresenter\SolutionExplorerPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\SolutionExplorer.h">
+      <Filter>DockViewPresenter\SolutionExplorerPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\SolutionExplorerPresenter\SolutionExplorerPresenter.h">
+      <Filter>DockViewPresenter\SolutionExplorerPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\PropertiesExplorer.h">
+      <Filter>DockViewPresenter\PropertiesExplorerPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\DockViewPresenter\PropertiesExplorerPresenter\PropertiesExplorerPresenter.h">
+      <Filter>DockViewPresenter\PropertiesExplorerPresenter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\AllRootBuilderIncludes.h">
+      <Filter>RootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\RootBuilder.h">
+      <Filter>RootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\CoordinateSystemRootBuilder\CoordinateSystemRootBuilder.h">
+      <Filter>RootBuilder\CoordinateSystemRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\DefaultRootBuilder\DefaultRootBuilder.h">
+      <Filter>RootBuilder\DefaultRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\MorisonRootBuilder\MorisonRootBuilder.h">
+      <Filter>RootBuilder\MorisonRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\PileRootBuilder\PileRootBuilder.h">
+      <Filter>RootBuilder\PileRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentRootBuilder\SedimentRootBuilder.h">
+      <Filter>RootBuilder\SedimentRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\SedimentTransportRootBuilder\SedimentTransportRootBuilder.h">
+      <Filter>RootBuilder\SedimentTransportRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaterRootBuilder\WaterRootBuilder.h">
+      <Filter>RootBuilder\WaterRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveDynamicRootBuilder\WaveDynamicRootBuilder.h">
+      <Filter>RootBuilder\WaveDynamicRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilder\WaveRootBuilder\WaveRootBuilder.h">
+      <Filter>RootBuilder\WaveRootBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\RootBuilderFactory.h">
+      <Filter>RootBuilderFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\RootBuilderFactory\RootBuilderFactoryImp.h">
+      <Filter>RootBuilderFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\presenter\Shell\Shell.h">
+      <Filter>Shell</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\presenter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RootBuilder\CoordinateSystemRootBuilder">
+      <UniqueIdentifier>{4EBD1CED-0097-3461-A2D8-D3ED65125DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder\DefaultRootBuilder">
+      <UniqueIdentifier>{7FC230A2-228A-335E-B553-BDD74A23B0EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder\MorisonRootBuilder">
+      <UniqueIdentifier>{931AEC64-466F-3E24-8253-522092C26C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder\PileRootBuilder">
+      <UniqueIdentifier>{BF004911-3886-351B-BEBA-3759590E8E5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder\SedimentRootBuilder">
+      <UniqueIdentifier>{329709AA-E2A0-34D3-A21B-57BF703DF407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder\SedimentTransportRootBuilder">
+      <UniqueIdentifier>{5E387345-5B47-3A08-9DC9-E167497E3E11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder\WaterRootBuilder">
+      <UniqueIdentifier>{E0AF13B1-EC0C-3B25-8F83-8B90E5A00839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder\WaveDynamicRootBuilder">
+      <UniqueIdentifier>{A574D37C-C3B8-39B2-9BE6-424C1BF1A522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder\WaveRootBuilder">
+      <UniqueIdentifier>{D51AC34E-2BDC-38FD-9A45-41B30664083D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuPresenter\ViewMenuPresenter">
+      <UniqueIdentifier>{C8891B04-2DA4-3B73-8829-864AF0BDBC16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuPresenter\AddNodeMenuPresenter">
+      <UniqueIdentifier>{1D4CCCD4-1B67-31BB-BE36-DDE453846822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuPresenter\EditMenuPresenter">
+      <UniqueIdentifier>{9C2C2972-07D2-35F7-BDD3-86656AF4C982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuPresenter\EvaluateMenuPresenter">
+      <UniqueIdentifier>{21783385-F5D2-3D08-9DAA-DFC6796FC51C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuPresenter\BindingMenuPresenter">
+      <UniqueIdentifier>{EDCF54E7-4D0D-332F-8A41-1B0F6B73A824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvaluationViewPresenter\WaveDynamic">
+      <UniqueIdentifier>{A602CFAB-3080-39A1-BEB9-8CD1890E8C87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuPresenter">
+      <UniqueIdentifier>{BCA4A7DE-4947-3492-8E56-787A22083B03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvaluationViewPresenter">
+      <UniqueIdentifier>{FCF53038-B8D3-3281-B57D-0C6E36D1A94B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DockViewPresenter">
+      <UniqueIdentifier>{58143EFD-17D8-37F4-A81C-1147F5B75434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilder">
+      <UniqueIdentifier>{DEC2143D-09BD-384F-A9A7-88ECB682F58B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootBuilderFactory">
+      <UniqueIdentifier>{FAA9FD65-F52A-3316-9DD8-4D10CF0F0842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shell">
+      <UniqueIdentifier>{A1E8B713-6C05-305A-B2CA-DDF4E232CF3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvaluationViewPresenter\WaveDynamic\WaveKinematicPresenter">
+      <UniqueIdentifier>{B6593051-8240-31E3-8AB3-C6B63FFB7307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvaluationViewPresenter\WaveDynamic\WaveProfilePresenter">
+      <UniqueIdentifier>{8CFC0A5E-F49C-3222-A583-7E45683F8BEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DockViewPresenter\SolutionExplorerPresenter">
+      <UniqueIdentifier>{013EACBD-EECB-302B-A956-17F631A43B36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DockViewPresenter\PropertiesExplorerPresenter">
+      <UniqueIdentifier>{9D132B63-F0EE-38EA-913D-BE68124FC820}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

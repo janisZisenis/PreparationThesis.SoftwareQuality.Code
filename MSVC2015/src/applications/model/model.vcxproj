@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DB23072E-A040-3CA7-9204-B34EE5C54097}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>model</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">model.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">model</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">model.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">model</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">model.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">model</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">model.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">model</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";model_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";model_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\utilities\Debug\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/Debug/model.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Debug/model.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";model_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";model_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\utilities\Release\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/Release/model.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/Release/model.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";model_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";model_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\utilities\MinSizeRel\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/MinSizeRel/model.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/MinSizeRel/model.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";model_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";model_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sven\Documents\CompositeApp\src;C:\Libraries\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\utilities\RelWithDebInfo\utilities.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/RelWithDebInfo/model.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Sven/Documents/CompositeApp/MSVC2015/bin/RelWithDebInfo/model.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Boost\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CoordinateSystemBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\MorisonBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\PileBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentTransportBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaterBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveDynamicBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Commands\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CoordinateSystemEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\MorisonEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\PileEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentTransportEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaterEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveDynamicEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\exportheader.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Boost\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CoordinateSystemBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\MorisonBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\PileBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentTransportBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaterBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveDynamicBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Commands\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CoordinateSystemEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\MorisonEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\PileEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentTransportEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaterEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveDynamicEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\exportheader.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Boost\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CoordinateSystemBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\MorisonBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\PileBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentTransportBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaterBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveDynamicBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Commands\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CoordinateSystemEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\MorisonEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\PileEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentTransportEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaterEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveDynamicEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\exportheader.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Sven/Documents/CompositeApp -BC:/Users/Sven/Documents/CompositeApp/MSVC2015 --check-stamp-file C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Sven/Documents/CompositeApp/src/applications/model/CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt;C:\Users\Sven\Documents\CompositeApp\cmake\general\LibUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\Boost\Link.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CoordinateSystemBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\MorisonBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\PileBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentTransportBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaterBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveDynamicBinder\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Commands\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CoordinateSystemEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\MorisonEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\PileEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentTransportEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaterEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveDynamicEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveEditor\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\CMakePackage.cmake;C:\Users\Sven\Documents\CompositeApp\cmake\general\FileUtilities.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\exportheader.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBoost.cmake;C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\model\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CoordinateSystemBinder\CoordinateSystemBinder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\MorisonBinder\MorisonBinder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\PileBinder\PileBinder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentBinder\SedimentBinder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentTransportBinder\SedimentTransportBinder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaterBinder\WaterBinder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveBinder\WaveBinder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveDynamicBinder\WaveDynamicBinder.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\AddNodeCommand.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\EditCommand.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\VisitorCommand.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\Editor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CoordinateSystemEditor\CoordinateSystemEditor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\MorisonEditor\MorisonEditor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\PileEditor\PileEditor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentEditor\SedimentEditor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentTransportEditor\SedimentTransportEditor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaterEditor\WaterEditor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveDynamicEditor\WaveDynamicEditor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveEditor\WaveEditor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\AllNodeIncludes.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\AllNodeTypeIncludes.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\HierarchyNode.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\HierarchyNodeProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Units.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystem.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemType.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemVisitor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\Morison.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonChildTypes.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonType.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonVisitor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\Pile.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileType.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileVisitor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\AddRemoveNodeService.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\ProjectHierarchy.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\ProjectHierarchyService.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\Sediment.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentType.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentVisitor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransport.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportChildTypes.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportType.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportVisitor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\Water.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterType.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterVisitor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\Wave.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveType.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveVisitor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamic.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicChildTypes.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicProperties.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicType.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicVisitor.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\HierarchyNodeFactory.h" />
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\HierarchyNodeFactoryImp.h" />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CoordinateSystemBinder\CoordinateSystemBinder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\MorisonBinder\MorisonBinder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\PileBinder\PileBinder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentBinder\SedimentBinder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentTransportBinder\SedimentTransportBinder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaterBinder\WaterBinder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveBinder\WaveBinder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveDynamicBinder\WaveDynamicBinder.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\AddNodeCommand.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\EditCommand.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\VisitorCommand.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\Editor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CoordinateSystemEditor\CoordinateSystemEditor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\MorisonEditor\MorisonEditor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\PileEditor\PileEditor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentEditor\SedimentEditor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentTransportEditor\SedimentTransportEditor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaterEditor\WaterEditor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveDynamicEditor\WaveDynamicEditor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveEditor\WaveEditor.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\HierarchyNode.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\HierarchyNodeProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Units.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystem.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemType.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\Morison.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonType.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\Pile.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileType.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\ProjectHierarchy.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\Sediment.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentType.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransport.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportType.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\Water.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterType.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\Wave.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveType.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamic.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicProperties.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicType.cpp"  />
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\HierarchyNodeFactoryImp.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/ZERO_CHECK.vcxproj">
+      <Project>92BF220F-C07E-308D-BC74-111A806BD3B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/utilities.vcxproj">
+      <Project>AFA8CDCF-7415-35B8-BAD6-2CEFE8F08767</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

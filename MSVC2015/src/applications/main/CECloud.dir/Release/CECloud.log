@@ -1,0 +1,9 @@
+﻿main.obj : error LNK2001: unresolved external symbol __CxxFrameHandler3
+LINK : error LNK2001: unresolved external symbol NtProcessStartup
+MSVCRT.lib(new_scalar.obj) : error LNK2019: unresolved external symbol _callnewh referenced in function "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z)
+MSVCRT.lib(new_scalar.obj) : error LNK2019: unresolved external symbol malloc referenced in function "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z)
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2019: unresolved external symbol __std_exception_copy referenced in function "public: __cdecl std::bad_alloc::bad_alloc(class std::bad_alloc const &)" (??0bad_alloc@std@@QEAA@AEBV01@@Z)
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2019: unresolved external symbol __std_exception_destroy referenced in function "public: virtual __cdecl std::bad_alloc::~bad_alloc(void)" (??1bad_alloc@std@@UEAA@XZ)
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2019: unresolved external symbol _CxxThrowException referenced in function "void __cdecl __scrt_throw_std_bad_alloc(void)" (?__scrt_throw_std_bad_alloc@@YAXXZ)
+MSVCRT.lib(delete_scalar.obj) : error LNK2019: unresolved external symbol free referenced in function "void __cdecl operator delete(void *)" (??3@YAXPEAX@Z)
+C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Release\CECloud.exe : fatal error LNK1120: 8 unresolved externals

@@ -1,0 +1,689 @@
+﻿  Building Custom Rule C:/Users/Sven/Documents/CompositeApp/src/applications/utilities/testSuite/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Sven\Documents\CompositeApp\MSVC2015\src\applications\utilities\testSuite\CMakeFiles\generate.stamp is up-to-date.
+  CommandQueueImpTest.cpp
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-message.h(224): warning C4251: 'testing::Message::ss_': class 'testing::internal::scoped_ptr<std::stringstream>' needs to have dll-interface to be used by clients of class 'testing::Message'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-filepath.h(200): warning C4251: 'testing::internal::FilePath::pathname_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::FilePath'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'testing::internal::GoogleTestFailureException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\stdexcept(166): note: see declaration of 'std::runtime_error'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): note: see declaration of 'testing::internal::GoogleTestFailureException'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(589): warning C4251: 'testing::internal::TypedTestCasePState::registered_tests_': class 'std::map<std::string,testing::internal::CodeLocation,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'testing::internal::TypedTestCasePState'
+          with
+          [
+              _Kty=std::string,
+              _Ty=testing::internal::CodeLocation
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-death-test-internal.h(134): warning C4251: 'testing::internal::DeathTest::last_death_test_message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::DeathTest'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(111): warning C4251: 'testing::TestPartResult::file_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(115): warning C4251: 'testing::TestPartResult::summary_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(116): warning C4251: 'testing::TestPartResult::message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(140): warning C4251: 'testing::TestPartResultArray::array_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResultArray'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): warning C4275: non dll-interface class 'testing::TestPartResultReporterInterface' used as base for dll-interface class 'testing::internal::HasNewFatalFailureHelper'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(146): note: see declaration of 'testing::TestPartResultReporterInterface'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): note: see declaration of 'testing::internal::HasNewFatalFailureHelper'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(335): warning C4251: 'testing::AssertionResult::message_': class 'testing::internal::scoped_ptr<std::string>' needs to have dll-interface to be used by clients of class 'testing::AssertionResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(455): warning C4251: 'testing::Test::gtest_flag_saver_': class 'testing::internal::scoped_ptr<testing::internal::GTestFlagSaver>' needs to have dll-interface to be used by clients of class 'testing::Test'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(621): warning C4251: 'testing::TestResult::test_part_results_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(623): warning C4251: 'testing::TestResult::test_properties_': class 'std::vector<testing::TestProperty,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestProperty
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(751): warning C4251: 'testing::TestInfo::test_case_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(752): warning C4251: 'testing::TestInfo::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(755): warning C4251: 'testing::TestInfo::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(758): warning C4251: 'testing::TestInfo::value_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(759): warning C4251: 'testing::TestInfo::location_': struct 'testing::internal::CodeLocation' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(504): note: see declaration of 'testing::internal::CodeLocation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(931): warning C4251: 'testing::TestCase::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(934): warning C4251: 'testing::TestCase::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(937): warning C4251: 'testing::TestCase::test_info_list_': class 'std::vector<testing::TestInfo *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=testing::TestInfo *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(941): warning C4251: 'testing::TestCase::test_indices_': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-cardinalities.h(122): warning C4251: 'testing::Cardinality::impl_': class 'testing::internal::linked_ptr<const testing::CardinalityInterface>' needs to have dll-interface to be used by clients of class 'testing::Cardinality'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(340): warning C4251: 'testing::internal::MatcherBase<const testing::internal::string &>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<const testing::internal::string &>'
+          with
+          [
+              T=const testing::internal::string &
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(357): warning C4251: 'testing::internal::MatcherBase<testing::internal::string>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<testing::internal::string>'
+          with
+          [
+              T=testing::internal::string
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3294): warning C4251: 'testing::internal::MatchMatrix::matched_': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatchMatrix'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3338): warning C4251: 'testing::internal::UnorderedElementsAreMatcherImplBase::matcher_describers_': class 'std::vector<const testing::MatcherDescriberInterface *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UnorderedElementsAreMatcherImplBase'
+          with
+          [
+              _Ty=const testing::MatcherDescriberInterface *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(238): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_on_call_specs_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(241): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_expectations_': class 'std::vector<testing::internal::linked_ptr<testing::internal::ExpectationBase>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=testing::internal::linked_ptr<testing::internal::ExpectationBase>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(547): warning C4251: 'testing::Expectation::expectation_base_': class 'testing::internal::linked_ptr<testing::internal::ExpectationBase>' needs to have dll-interface to be used by clients of class 'testing::Expectation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(633): warning C4251: 'testing::Sequence::last_expectation_': class 'testing::internal::linked_ptr<testing::Expectation>' needs to have dll-interface to be used by clients of class 'testing::Sequence'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(848): warning C4251: 'testing::internal::ExpectationBase::source_text_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(858): warning C4251: 'testing::internal::ExpectationBase::immediate_prerequisites_': class 'testing::ExpectationSet' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(563): note: see declaration of 'testing::ExpectationSet'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(864): warning C4251: 'testing::internal::ExpectationBase::untyped_actions_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Observer/Subject.h(27): warning C4251: 'Subject::observers': class 'std::vector<std::weak_ptr<Observer>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Subject'
+          with
+          [
+              _Ty=std::weak_ptr<Observer>
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\commandqueue\CommandQueueImp.h(15): warning C4275: non dll-interface class 'AddCommandService' used as base for dll-interface class 'CommandQueueImp'
+  c:\users\sven\documents\compositeapp\src\utilities\commandqueue\AddCommandService.h(10): note: see declaration of 'AddCommandService'
+  c:\users\sven\documents\compositeapp\src\utilities\commandqueue\CommandQueueImp.h(15): note: see declaration of 'CommandQueueImp'
+c:\users\sven\documents\compositeapp\src\utilities\commandqueue\CommandQueueImp.h(34): warning C4251: 'CommandQueueImp::commands': class 'std::deque<std::shared_ptr<Command>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'CommandQueueImp'
+          with
+          [
+              _Ty=std::shared_ptr<Command>
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\commandqueue\Command.h(17): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'CommandException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  c:\users\sven\documents\compositeapp\src\utilities\commandqueue\Command.h(17): note: see declaration of 'CommandException'
+  EventTest.cpp
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-message.h(224): warning C4251: 'testing::Message::ss_': class 'testing::internal::scoped_ptr<std::stringstream>' needs to have dll-interface to be used by clients of class 'testing::Message'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-filepath.h(200): warning C4251: 'testing::internal::FilePath::pathname_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::FilePath'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'testing::internal::GoogleTestFailureException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\stdexcept(166): note: see declaration of 'std::runtime_error'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): note: see declaration of 'testing::internal::GoogleTestFailureException'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(589): warning C4251: 'testing::internal::TypedTestCasePState::registered_tests_': class 'std::map<std::string,testing::internal::CodeLocation,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'testing::internal::TypedTestCasePState'
+          with
+          [
+              _Kty=std::string,
+              _Ty=testing::internal::CodeLocation
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-death-test-internal.h(134): warning C4251: 'testing::internal::DeathTest::last_death_test_message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::DeathTest'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(111): warning C4251: 'testing::TestPartResult::file_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(115): warning C4251: 'testing::TestPartResult::summary_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(116): warning C4251: 'testing::TestPartResult::message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(140): warning C4251: 'testing::TestPartResultArray::array_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResultArray'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): warning C4275: non dll-interface class 'testing::TestPartResultReporterInterface' used as base for dll-interface class 'testing::internal::HasNewFatalFailureHelper'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(146): note: see declaration of 'testing::TestPartResultReporterInterface'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): note: see declaration of 'testing::internal::HasNewFatalFailureHelper'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(335): warning C4251: 'testing::AssertionResult::message_': class 'testing::internal::scoped_ptr<std::string>' needs to have dll-interface to be used by clients of class 'testing::AssertionResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(455): warning C4251: 'testing::Test::gtest_flag_saver_': class 'testing::internal::scoped_ptr<testing::internal::GTestFlagSaver>' needs to have dll-interface to be used by clients of class 'testing::Test'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(621): warning C4251: 'testing::TestResult::test_part_results_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(623): warning C4251: 'testing::TestResult::test_properties_': class 'std::vector<testing::TestProperty,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestProperty
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(751): warning C4251: 'testing::TestInfo::test_case_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(752): warning C4251: 'testing::TestInfo::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(755): warning C4251: 'testing::TestInfo::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(758): warning C4251: 'testing::TestInfo::value_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(759): warning C4251: 'testing::TestInfo::location_': struct 'testing::internal::CodeLocation' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(504): note: see declaration of 'testing::internal::CodeLocation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(931): warning C4251: 'testing::TestCase::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(934): warning C4251: 'testing::TestCase::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(937): warning C4251: 'testing::TestCase::test_info_list_': class 'std::vector<testing::TestInfo *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=testing::TestInfo *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(941): warning C4251: 'testing::TestCase::test_indices_': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-cardinalities.h(122): warning C4251: 'testing::Cardinality::impl_': class 'testing::internal::linked_ptr<const testing::CardinalityInterface>' needs to have dll-interface to be used by clients of class 'testing::Cardinality'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(340): warning C4251: 'testing::internal::MatcherBase<const testing::internal::string &>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<const testing::internal::string &>'
+          with
+          [
+              T=const testing::internal::string &
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(357): warning C4251: 'testing::internal::MatcherBase<testing::internal::string>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<testing::internal::string>'
+          with
+          [
+              T=testing::internal::string
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3294): warning C4251: 'testing::internal::MatchMatrix::matched_': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatchMatrix'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3338): warning C4251: 'testing::internal::UnorderedElementsAreMatcherImplBase::matcher_describers_': class 'std::vector<const testing::MatcherDescriberInterface *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UnorderedElementsAreMatcherImplBase'
+          with
+          [
+              _Ty=const testing::MatcherDescriberInterface *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(238): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_on_call_specs_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(241): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_expectations_': class 'std::vector<testing::internal::linked_ptr<testing::internal::ExpectationBase>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=testing::internal::linked_ptr<testing::internal::ExpectationBase>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(547): warning C4251: 'testing::Expectation::expectation_base_': class 'testing::internal::linked_ptr<testing::internal::ExpectationBase>' needs to have dll-interface to be used by clients of class 'testing::Expectation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(633): warning C4251: 'testing::Sequence::last_expectation_': class 'testing::internal::linked_ptr<testing::Expectation>' needs to have dll-interface to be used by clients of class 'testing::Sequence'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(848): warning C4251: 'testing::internal::ExpectationBase::source_text_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(858): warning C4251: 'testing::internal::ExpectationBase::immediate_prerequisites_': class 'testing::ExpectationSet' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(563): note: see declaration of 'testing::ExpectationSet'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(864): warning C4251: 'testing::internal::ExpectationBase::untyped_actions_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+          with
+          [
+              _Ty=const void *
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  C:\Users\Sven\Documents\CompositeApp\src\utilities/Object/Object.h(24): note: see declaration of 'SharedFromThisException'
+  MathTest.cpp
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-message.h(224): warning C4251: 'testing::Message::ss_': class 'testing::internal::scoped_ptr<std::stringstream>' needs to have dll-interface to be used by clients of class 'testing::Message'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-filepath.h(200): warning C4251: 'testing::internal::FilePath::pathname_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::FilePath'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'testing::internal::GoogleTestFailureException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\stdexcept(166): note: see declaration of 'std::runtime_error'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): note: see declaration of 'testing::internal::GoogleTestFailureException'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(589): warning C4251: 'testing::internal::TypedTestCasePState::registered_tests_': class 'std::map<std::string,testing::internal::CodeLocation,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'testing::internal::TypedTestCasePState'
+          with
+          [
+              _Kty=std::string,
+              _Ty=testing::internal::CodeLocation
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-death-test-internal.h(134): warning C4251: 'testing::internal::DeathTest::last_death_test_message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::DeathTest'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(111): warning C4251: 'testing::TestPartResult::file_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(115): warning C4251: 'testing::TestPartResult::summary_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(116): warning C4251: 'testing::TestPartResult::message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(140): warning C4251: 'testing::TestPartResultArray::array_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResultArray'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): warning C4275: non dll-interface class 'testing::TestPartResultReporterInterface' used as base for dll-interface class 'testing::internal::HasNewFatalFailureHelper'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(146): note: see declaration of 'testing::TestPartResultReporterInterface'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): note: see declaration of 'testing::internal::HasNewFatalFailureHelper'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(335): warning C4251: 'testing::AssertionResult::message_': class 'testing::internal::scoped_ptr<std::string>' needs to have dll-interface to be used by clients of class 'testing::AssertionResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(455): warning C4251: 'testing::Test::gtest_flag_saver_': class 'testing::internal::scoped_ptr<testing::internal::GTestFlagSaver>' needs to have dll-interface to be used by clients of class 'testing::Test'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(621): warning C4251: 'testing::TestResult::test_part_results_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(623): warning C4251: 'testing::TestResult::test_properties_': class 'std::vector<testing::TestProperty,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestProperty
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(751): warning C4251: 'testing::TestInfo::test_case_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(752): warning C4251: 'testing::TestInfo::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(755): warning C4251: 'testing::TestInfo::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(758): warning C4251: 'testing::TestInfo::value_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(759): warning C4251: 'testing::TestInfo::location_': struct 'testing::internal::CodeLocation' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(504): note: see declaration of 'testing::internal::CodeLocation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(931): warning C4251: 'testing::TestCase::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(934): warning C4251: 'testing::TestCase::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(937): warning C4251: 'testing::TestCase::test_info_list_': class 'std::vector<testing::TestInfo *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=testing::TestInfo *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(941): warning C4251: 'testing::TestCase::test_indices_': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-cardinalities.h(122): warning C4251: 'testing::Cardinality::impl_': class 'testing::internal::linked_ptr<const testing::CardinalityInterface>' needs to have dll-interface to be used by clients of class 'testing::Cardinality'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(340): warning C4251: 'testing::internal::MatcherBase<const testing::internal::string &>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<const testing::internal::string &>'
+          with
+          [
+              T=const testing::internal::string &
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(357): warning C4251: 'testing::internal::MatcherBase<testing::internal::string>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<testing::internal::string>'
+          with
+          [
+              T=testing::internal::string
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3294): warning C4251: 'testing::internal::MatchMatrix::matched_': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatchMatrix'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3338): warning C4251: 'testing::internal::UnorderedElementsAreMatcherImplBase::matcher_describers_': class 'std::vector<const testing::MatcherDescriberInterface *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UnorderedElementsAreMatcherImplBase'
+          with
+          [
+              _Ty=const testing::MatcherDescriberInterface *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(238): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_on_call_specs_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(241): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_expectations_': class 'std::vector<testing::internal::linked_ptr<testing::internal::ExpectationBase>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=testing::internal::linked_ptr<testing::internal::ExpectationBase>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(547): warning C4251: 'testing::Expectation::expectation_base_': class 'testing::internal::linked_ptr<testing::internal::ExpectationBase>' needs to have dll-interface to be used by clients of class 'testing::Expectation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(633): warning C4251: 'testing::Sequence::last_expectation_': class 'testing::internal::linked_ptr<testing::Expectation>' needs to have dll-interface to be used by clients of class 'testing::Sequence'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(848): warning C4251: 'testing::internal::ExpectationBase::source_text_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(858): warning C4251: 'testing::internal::ExpectationBase::immediate_prerequisites_': class 'testing::ExpectationSet' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(563): note: see declaration of 'testing::ExpectationSet'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(864): warning C4251: 'testing::internal::ExpectationBase::untyped_actions_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+          with
+          [
+              _Ty=const void *
+          ]
+  ObjectTest.cpp
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-message.h(224): warning C4251: 'testing::Message::ss_': class 'testing::internal::scoped_ptr<std::stringstream>' needs to have dll-interface to be used by clients of class 'testing::Message'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-filepath.h(200): warning C4251: 'testing::internal::FilePath::pathname_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::FilePath'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'testing::internal::GoogleTestFailureException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\stdexcept(166): note: see declaration of 'std::runtime_error'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): note: see declaration of 'testing::internal::GoogleTestFailureException'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(589): warning C4251: 'testing::internal::TypedTestCasePState::registered_tests_': class 'std::map<std::string,testing::internal::CodeLocation,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'testing::internal::TypedTestCasePState'
+          with
+          [
+              _Kty=std::string,
+              _Ty=testing::internal::CodeLocation
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-death-test-internal.h(134): warning C4251: 'testing::internal::DeathTest::last_death_test_message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::DeathTest'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(111): warning C4251: 'testing::TestPartResult::file_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(115): warning C4251: 'testing::TestPartResult::summary_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(116): warning C4251: 'testing::TestPartResult::message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(140): warning C4251: 'testing::TestPartResultArray::array_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResultArray'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): warning C4275: non dll-interface class 'testing::TestPartResultReporterInterface' used as base for dll-interface class 'testing::internal::HasNewFatalFailureHelper'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(146): note: see declaration of 'testing::TestPartResultReporterInterface'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): note: see declaration of 'testing::internal::HasNewFatalFailureHelper'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(335): warning C4251: 'testing::AssertionResult::message_': class 'testing::internal::scoped_ptr<std::string>' needs to have dll-interface to be used by clients of class 'testing::AssertionResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(455): warning C4251: 'testing::Test::gtest_flag_saver_': class 'testing::internal::scoped_ptr<testing::internal::GTestFlagSaver>' needs to have dll-interface to be used by clients of class 'testing::Test'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(621): warning C4251: 'testing::TestResult::test_part_results_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(623): warning C4251: 'testing::TestResult::test_properties_': class 'std::vector<testing::TestProperty,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestProperty
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(751): warning C4251: 'testing::TestInfo::test_case_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(752): warning C4251: 'testing::TestInfo::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(755): warning C4251: 'testing::TestInfo::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(758): warning C4251: 'testing::TestInfo::value_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(759): warning C4251: 'testing::TestInfo::location_': struct 'testing::internal::CodeLocation' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(504): note: see declaration of 'testing::internal::CodeLocation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(931): warning C4251: 'testing::TestCase::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(934): warning C4251: 'testing::TestCase::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(937): warning C4251: 'testing::TestCase::test_info_list_': class 'std::vector<testing::TestInfo *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=testing::TestInfo *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(941): warning C4251: 'testing::TestCase::test_indices_': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-cardinalities.h(122): warning C4251: 'testing::Cardinality::impl_': class 'testing::internal::linked_ptr<const testing::CardinalityInterface>' needs to have dll-interface to be used by clients of class 'testing::Cardinality'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(340): warning C4251: 'testing::internal::MatcherBase<const testing::internal::string &>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<const testing::internal::string &>'
+          with
+          [
+              T=const testing::internal::string &
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(357): warning C4251: 'testing::internal::MatcherBase<testing::internal::string>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<testing::internal::string>'
+          with
+          [
+              T=testing::internal::string
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3294): warning C4251: 'testing::internal::MatchMatrix::matched_': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatchMatrix'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3338): warning C4251: 'testing::internal::UnorderedElementsAreMatcherImplBase::matcher_describers_': class 'std::vector<const testing::MatcherDescriberInterface *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UnorderedElementsAreMatcherImplBase'
+          with
+          [
+              _Ty=const testing::MatcherDescriberInterface *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(238): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_on_call_specs_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(241): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_expectations_': class 'std::vector<testing::internal::linked_ptr<testing::internal::ExpectationBase>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=testing::internal::linked_ptr<testing::internal::ExpectationBase>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(547): warning C4251: 'testing::Expectation::expectation_base_': class 'testing::internal::linked_ptr<testing::internal::ExpectationBase>' needs to have dll-interface to be used by clients of class 'testing::Expectation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(633): warning C4251: 'testing::Sequence::last_expectation_': class 'testing::internal::linked_ptr<testing::Expectation>' needs to have dll-interface to be used by clients of class 'testing::Sequence'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(848): warning C4251: 'testing::internal::ExpectationBase::source_text_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(858): warning C4251: 'testing::internal::ExpectationBase::immediate_prerequisites_': class 'testing::ExpectationSet' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(563): note: see declaration of 'testing::ExpectationSet'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(864): warning C4251: 'testing::internal::ExpectationBase::untyped_actions_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+          with
+          [
+              _Ty=const void *
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\object\LoggingObject.h(27): warning C4251: 'LoggingObject::loggers': class 'std::vector<std::shared_ptr<Logger>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'LoggingObject'
+          with
+          [
+              _Ty=std::shared_ptr<Logger>
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\object\Object.h(10): warning C4251: 'std::enable_shared_from_this<Object>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<Object>'
+          with
+          [
+              _Ty=Object
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\object\Object.h(24): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'SharedFromThisException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  c:\users\sven\documents\compositeapp\src\utilities\object\Object.h(24): note: see declaration of 'SharedFromThisException'
+  SubjectTest.cpp
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-message.h(224): warning C4251: 'testing::Message::ss_': class 'testing::internal::scoped_ptr<std::stringstream>' needs to have dll-interface to be used by clients of class 'testing::Message'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-filepath.h(200): warning C4251: 'testing::internal::FilePath::pathname_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::FilePath'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'testing::internal::GoogleTestFailureException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\stdexcept(166): note: see declaration of 'std::runtime_error'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): note: see declaration of 'testing::internal::GoogleTestFailureException'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(589): warning C4251: 'testing::internal::TypedTestCasePState::registered_tests_': class 'std::map<std::string,testing::internal::CodeLocation,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'testing::internal::TypedTestCasePState'
+          with
+          [
+              _Kty=std::string,
+              _Ty=testing::internal::CodeLocation
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-death-test-internal.h(134): warning C4251: 'testing::internal::DeathTest::last_death_test_message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::DeathTest'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(111): warning C4251: 'testing::TestPartResult::file_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(115): warning C4251: 'testing::TestPartResult::summary_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(116): warning C4251: 'testing::TestPartResult::message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(140): warning C4251: 'testing::TestPartResultArray::array_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResultArray'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): warning C4275: non dll-interface class 'testing::TestPartResultReporterInterface' used as base for dll-interface class 'testing::internal::HasNewFatalFailureHelper'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(146): note: see declaration of 'testing::TestPartResultReporterInterface'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): note: see declaration of 'testing::internal::HasNewFatalFailureHelper'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(335): warning C4251: 'testing::AssertionResult::message_': class 'testing::internal::scoped_ptr<std::string>' needs to have dll-interface to be used by clients of class 'testing::AssertionResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(455): warning C4251: 'testing::Test::gtest_flag_saver_': class 'testing::internal::scoped_ptr<testing::internal::GTestFlagSaver>' needs to have dll-interface to be used by clients of class 'testing::Test'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(621): warning C4251: 'testing::TestResult::test_part_results_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(623): warning C4251: 'testing::TestResult::test_properties_': class 'std::vector<testing::TestProperty,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestProperty
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(751): warning C4251: 'testing::TestInfo::test_case_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(752): warning C4251: 'testing::TestInfo::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(755): warning C4251: 'testing::TestInfo::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(758): warning C4251: 'testing::TestInfo::value_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(759): warning C4251: 'testing::TestInfo::location_': struct 'testing::internal::CodeLocation' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(504): note: see declaration of 'testing::internal::CodeLocation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(931): warning C4251: 'testing::TestCase::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(934): warning C4251: 'testing::TestCase::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(937): warning C4251: 'testing::TestCase::test_info_list_': class 'std::vector<testing::TestInfo *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=testing::TestInfo *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(941): warning C4251: 'testing::TestCase::test_indices_': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-cardinalities.h(122): warning C4251: 'testing::Cardinality::impl_': class 'testing::internal::linked_ptr<const testing::CardinalityInterface>' needs to have dll-interface to be used by clients of class 'testing::Cardinality'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(340): warning C4251: 'testing::internal::MatcherBase<const testing::internal::string &>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<const testing::internal::string &>'
+          with
+          [
+              T=const testing::internal::string &
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(357): warning C4251: 'testing::internal::MatcherBase<testing::internal::string>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<testing::internal::string>'
+          with
+          [
+              T=testing::internal::string
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3294): warning C4251: 'testing::internal::MatchMatrix::matched_': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatchMatrix'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3338): warning C4251: 'testing::internal::UnorderedElementsAreMatcherImplBase::matcher_describers_': class 'std::vector<const testing::MatcherDescriberInterface *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UnorderedElementsAreMatcherImplBase'
+          with
+          [
+              _Ty=const testing::MatcherDescriberInterface *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(238): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_on_call_specs_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(241): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_expectations_': class 'std::vector<testing::internal::linked_ptr<testing::internal::ExpectationBase>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=testing::internal::linked_ptr<testing::internal::ExpectationBase>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(547): warning C4251: 'testing::Expectation::expectation_base_': class 'testing::internal::linked_ptr<testing::internal::ExpectationBase>' needs to have dll-interface to be used by clients of class 'testing::Expectation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(633): warning C4251: 'testing::Sequence::last_expectation_': class 'testing::internal::linked_ptr<testing::Expectation>' needs to have dll-interface to be used by clients of class 'testing::Sequence'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(848): warning C4251: 'testing::internal::ExpectationBase::source_text_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(858): warning C4251: 'testing::internal::ExpectationBase::immediate_prerequisites_': class 'testing::ExpectationSet' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(563): note: see declaration of 'testing::ExpectationSet'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(864): warning C4251: 'testing::internal::ExpectationBase::untyped_actions_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+          with
+          [
+              _Ty=const void *
+          ]
+c:\users\sven\documents\compositeapp\src\utilities\observer\Subject.h(27): warning C4251: 'Subject::observers': class 'std::vector<std::weak_ptr<Observer>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Subject'
+          with
+          [
+              _Ty=std::weak_ptr<Observer>
+          ]
+  StringTest.cpp
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-message.h(224): warning C4251: 'testing::Message::ss_': class 'testing::internal::scoped_ptr<std::stringstream>' needs to have dll-interface to be used by clients of class 'testing::Message'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-filepath.h(200): warning C4251: 'testing::internal::FilePath::pathname_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::FilePath'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'testing::internal::GoogleTestFailureException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\stdexcept(166): note: see declaration of 'std::runtime_error'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): note: see declaration of 'testing::internal::GoogleTestFailureException'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(589): warning C4251: 'testing::internal::TypedTestCasePState::registered_tests_': class 'std::map<std::string,testing::internal::CodeLocation,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'testing::internal::TypedTestCasePState'
+          with
+          [
+              _Kty=std::string,
+              _Ty=testing::internal::CodeLocation
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-death-test-internal.h(134): warning C4251: 'testing::internal::DeathTest::last_death_test_message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::DeathTest'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(111): warning C4251: 'testing::TestPartResult::file_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(115): warning C4251: 'testing::TestPartResult::summary_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(116): warning C4251: 'testing::TestPartResult::message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(140): warning C4251: 'testing::TestPartResultArray::array_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResultArray'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): warning C4275: non dll-interface class 'testing::TestPartResultReporterInterface' used as base for dll-interface class 'testing::internal::HasNewFatalFailureHelper'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(146): note: see declaration of 'testing::TestPartResultReporterInterface'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): note: see declaration of 'testing::internal::HasNewFatalFailureHelper'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(335): warning C4251: 'testing::AssertionResult::message_': class 'testing::internal::scoped_ptr<std::string>' needs to have dll-interface to be used by clients of class 'testing::AssertionResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(455): warning C4251: 'testing::Test::gtest_flag_saver_': class 'testing::internal::scoped_ptr<testing::internal::GTestFlagSaver>' needs to have dll-interface to be used by clients of class 'testing::Test'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(621): warning C4251: 'testing::TestResult::test_part_results_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(623): warning C4251: 'testing::TestResult::test_properties_': class 'std::vector<testing::TestProperty,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestProperty
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(751): warning C4251: 'testing::TestInfo::test_case_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(752): warning C4251: 'testing::TestInfo::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(755): warning C4251: 'testing::TestInfo::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(758): warning C4251: 'testing::TestInfo::value_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(759): warning C4251: 'testing::TestInfo::location_': struct 'testing::internal::CodeLocation' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(504): note: see declaration of 'testing::internal::CodeLocation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(931): warning C4251: 'testing::TestCase::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(934): warning C4251: 'testing::TestCase::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(937): warning C4251: 'testing::TestCase::test_info_list_': class 'std::vector<testing::TestInfo *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=testing::TestInfo *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(941): warning C4251: 'testing::TestCase::test_indices_': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-cardinalities.h(122): warning C4251: 'testing::Cardinality::impl_': class 'testing::internal::linked_ptr<const testing::CardinalityInterface>' needs to have dll-interface to be used by clients of class 'testing::Cardinality'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(340): warning C4251: 'testing::internal::MatcherBase<const testing::internal::string &>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<const testing::internal::string &>'
+          with
+          [
+              T=const testing::internal::string &
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(357): warning C4251: 'testing::internal::MatcherBase<testing::internal::string>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<testing::internal::string>'
+          with
+          [
+              T=testing::internal::string
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3294): warning C4251: 'testing::internal::MatchMatrix::matched_': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatchMatrix'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3338): warning C4251: 'testing::internal::UnorderedElementsAreMatcherImplBase::matcher_describers_': class 'std::vector<const testing::MatcherDescriberInterface *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UnorderedElementsAreMatcherImplBase'
+          with
+          [
+              _Ty=const testing::MatcherDescriberInterface *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(238): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_on_call_specs_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(241): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_expectations_': class 'std::vector<testing::internal::linked_ptr<testing::internal::ExpectationBase>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=testing::internal::linked_ptr<testing::internal::ExpectationBase>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(547): warning C4251: 'testing::Expectation::expectation_base_': class 'testing::internal::linked_ptr<testing::internal::ExpectationBase>' needs to have dll-interface to be used by clients of class 'testing::Expectation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(633): warning C4251: 'testing::Sequence::last_expectation_': class 'testing::internal::linked_ptr<testing::Expectation>' needs to have dll-interface to be used by clients of class 'testing::Sequence'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(848): warning C4251: 'testing::internal::ExpectationBase::source_text_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(858): warning C4251: 'testing::internal::ExpectationBase::immediate_prerequisites_': class 'testing::ExpectationSet' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(563): note: see declaration of 'testing::ExpectationSet'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(864): warning C4251: 'testing::internal::ExpectationBase::untyped_actions_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\utilities\String\StringTest.cpp(26): warning C4129: '': unrecognized character escape sequence
+  main.cpp
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-message.h(224): warning C4251: 'testing::Message::ss_': class 'testing::internal::scoped_ptr<std::stringstream>' needs to have dll-interface to be used by clients of class 'testing::Message'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-filepath.h(200): warning C4251: 'testing::internal::FilePath::pathname_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::FilePath'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'testing::internal::GoogleTestFailureException'
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\include\stdexcept(166): note: see declaration of 'std::runtime_error'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(148): note: see declaration of 'testing::internal::GoogleTestFailureException'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(589): warning C4251: 'testing::internal::TypedTestCasePState::registered_tests_': class 'std::map<std::string,testing::internal::CodeLocation,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'testing::internal::TypedTestCasePState'
+          with
+          [
+              _Kty=std::string,
+              _Ty=testing::internal::CodeLocation
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-death-test-internal.h(134): warning C4251: 'testing::internal::DeathTest::last_death_test_message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::DeathTest'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(111): warning C4251: 'testing::TestPartResult::file_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(115): warning C4251: 'testing::TestPartResult::summary_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(116): warning C4251: 'testing::TestPartResult::message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(140): warning C4251: 'testing::TestPartResultArray::array_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestPartResultArray'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): warning C4275: non dll-interface class 'testing::TestPartResultReporterInterface' used as base for dll-interface class 'testing::internal::HasNewFatalFailureHelper'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(146): note: see declaration of 'testing::TestPartResultReporterInterface'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest-test-part.h(162): note: see declaration of 'testing::internal::HasNewFatalFailureHelper'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(335): warning C4251: 'testing::AssertionResult::message_': class 'testing::internal::scoped_ptr<std::string>' needs to have dll-interface to be used by clients of class 'testing::AssertionResult'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(455): warning C4251: 'testing::Test::gtest_flag_saver_': class 'testing::internal::scoped_ptr<testing::internal::GTestFlagSaver>' needs to have dll-interface to be used by clients of class 'testing::Test'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(621): warning C4251: 'testing::TestResult::test_part_results_': class 'std::vector<testing::TestPartResult,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(623): warning C4251: 'testing::TestResult::test_properties_': class 'std::vector<testing::TestProperty,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestResult'
+          with
+          [
+              _Ty=testing::TestProperty
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(751): warning C4251: 'testing::TestInfo::test_case_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(752): warning C4251: 'testing::TestInfo::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(755): warning C4251: 'testing::TestInfo::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(758): warning C4251: 'testing::TestInfo::value_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(759): warning C4251: 'testing::TestInfo::location_': struct 'testing::internal::CodeLocation' needs to have dll-interface to be used by clients of class 'testing::TestInfo'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/internal/gtest-internal.h(504): note: see declaration of 'testing::internal::CodeLocation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(931): warning C4251: 'testing::TestCase::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(934): warning C4251: 'testing::TestCase::type_param_': class 'testing::internal::scoped_ptr<const std::string>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(937): warning C4251: 'testing::TestCase::test_info_list_': class 'std::vector<testing::TestInfo *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=testing::TestInfo *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googletest\include\gtest/gtest.h(941): warning C4251: 'testing::TestCase::test_indices_': class 'std::vector<int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::TestCase'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-cardinalities.h(122): warning C4251: 'testing::Cardinality::impl_': class 'testing::internal::linked_ptr<const testing::CardinalityInterface>' needs to have dll-interface to be used by clients of class 'testing::Cardinality'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(340): warning C4251: 'testing::internal::MatcherBase<const testing::internal::string &>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<const testing::internal::string &>'
+          with
+          [
+              T=const testing::internal::string &
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(357): warning C4251: 'testing::internal::MatcherBase<testing::internal::string>::impl_': class 'testing::internal::linked_ptr<const testing::MatcherInterface<T>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatcherBase<testing::internal::string>'
+          with
+          [
+              T=testing::internal::string
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3294): warning C4251: 'testing::internal::MatchMatrix::matched_': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::MatchMatrix'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-matchers.h(3338): warning C4251: 'testing::internal::UnorderedElementsAreMatcherImplBase::matcher_describers_': class 'std::vector<const testing::MatcherDescriberInterface *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UnorderedElementsAreMatcherImplBase'
+          with
+          [
+              _Ty=const testing::MatcherDescriberInterface *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(238): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_on_call_specs_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=const void *
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(241): warning C4251: 'testing::internal::UntypedFunctionMockerBase::untyped_expectations_': class 'std::vector<testing::internal::linked_ptr<testing::internal::ExpectationBase>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::UntypedFunctionMockerBase'
+          with
+          [
+              _Ty=testing::internal::linked_ptr<testing::internal::ExpectationBase>
+          ]
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(547): warning C4251: 'testing::Expectation::expectation_base_': class 'testing::internal::linked_ptr<testing::internal::ExpectationBase>' needs to have dll-interface to be used by clients of class 'testing::Expectation'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(633): warning C4251: 'testing::Sequence::last_expectation_': class 'testing::internal::linked_ptr<testing::Expectation>' needs to have dll-interface to be used by clients of class 'testing::Sequence'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(848): warning C4251: 'testing::internal::ExpectationBase::source_text_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(858): warning C4251: 'testing::internal::ExpectationBase::immediate_prerequisites_': class 'testing::ExpectationSet' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+  C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(563): note: see declaration of 'testing::ExpectationSet'
+C:\Users\Sven\Documents\CompositeApp\src\3rdParty\gmock-1.7.0\src\googlemock\include\gmock/gmock-spec-builders.h(864): warning C4251: 'testing::internal::ExpectationBase::untyped_actions_': class 'std::vector<const void *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'testing::internal::ExpectationBase'
+          with
+          [
+              _Ty=const void *
+          ]
+  Generating Code...
+  utilitiesTest.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\bin\Release\utilitiesTest.exe

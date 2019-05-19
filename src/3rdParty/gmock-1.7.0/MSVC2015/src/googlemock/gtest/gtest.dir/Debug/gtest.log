@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/gmock-1.7.0/src/googletest/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\gmock-1.7.0\MSVC2015\src\googlemock\gtest\CMakeFiles\generate.stamp is up-to-date.
+  gtest-all.cc
+     Creating library C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/gmock-1.7.0/MSVC2015/src/googlemock/gtest/Debug/gtest.lib and object C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/gmock-1.7.0/MSVC2015/src/googlemock/gtest/Debug/gtest.exp
+  gtest.vcxproj -> C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\gmock-1.7.0\MSVC2015\src\googlemock\gtest\Debug\gtest.dll
+  gtest.vcxproj -> C:/Users/Sven/Desktop/CompositeApp/src/3rdParty/gmock-1.7.0/MSVC2015/src/googlemock/gtest/Debug/gtest.pdb (Full PDB)

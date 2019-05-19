@@ -1,0 +1,9 @@
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/CMakeFiles/utilities.dir
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/utilities/testSuite/CMakeFiles/utilitiesTest.dir
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/model/CMakeFiles/model.dir
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/item/CMakeFiles/item.dir
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/presenter/CMakeFiles/presenter.dir
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/qtView/CMakeFiles/qtView.dir
+C:/Users/Sven/Documents/CompositeApp/MSVC2015/src/applications/main/CMakeFiles/CECloud.dir

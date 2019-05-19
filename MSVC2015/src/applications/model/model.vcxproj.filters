@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CoordinateSystemBinder\CoordinateSystemBinder.cpp">
+      <Filter>Binder\CoordinateSystemBinder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\MorisonBinder\MorisonBinder.cpp">
+      <Filter>Binder\MorisonBinder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\PileBinder\PileBinder.cpp">
+      <Filter>Binder\PileBinder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentBinder\SedimentBinder.cpp">
+      <Filter>Binder\SedimentBinder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentTransportBinder\SedimentTransportBinder.cpp">
+      <Filter>Binder\SedimentTransportBinder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaterBinder\WaterBinder.cpp">
+      <Filter>Binder\WaterBinder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveBinder\WaveBinder.cpp">
+      <Filter>Binder\WaveBinder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveDynamicBinder\WaveDynamicBinder.cpp">
+      <Filter>Binder\WaveDynamicBinder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\AddNodeCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\EditCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\VisitorCommand.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\Editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CoordinateSystemEditor\CoordinateSystemEditor.cpp">
+      <Filter>Editor\CoordinateSystemEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\MorisonEditor\MorisonEditor.cpp">
+      <Filter>Editor\MorisonEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\PileEditor\PileEditor.cpp">
+      <Filter>Editor\PileEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentEditor\SedimentEditor.cpp">
+      <Filter>Editor\SedimentEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentTransportEditor\SedimentTransportEditor.cpp">
+      <Filter>Editor\SedimentTransportEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaterEditor\WaterEditor.cpp">
+      <Filter>Editor\WaterEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveDynamicEditor\WaveDynamicEditor.cpp">
+      <Filter>Editor\WaveDynamicEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveEditor\WaveEditor.cpp">
+      <Filter>Editor\WaveEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\HierarchyNode.cpp">
+      <Filter>HierarchyNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\HierarchyNodeProperties.cpp">
+      <Filter>HierarchyNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Units.cpp">
+      <Filter>HierarchyNode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystem.cpp">
+      <Filter>HierarchyNode\CoordinateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemProperties.cpp">
+      <Filter>HierarchyNode\CoordinateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemType.cpp">
+      <Filter>HierarchyNode\CoordinateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\Morison.cpp">
+      <Filter>HierarchyNode\Morison</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonProperties.cpp">
+      <Filter>HierarchyNode\Morison</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonType.cpp">
+      <Filter>HierarchyNode\Morison</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\Pile.cpp">
+      <Filter>HierarchyNode\Pile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileProperties.cpp">
+      <Filter>HierarchyNode\Pile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileType.cpp">
+      <Filter>HierarchyNode\Pile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\ProjectHierarchy.cpp">
+      <Filter>HierarchyNode\ProjectHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\Sediment.cpp">
+      <Filter>HierarchyNode\Sediment</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentProperties.cpp">
+      <Filter>HierarchyNode\Sediment</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentType.cpp">
+      <Filter>HierarchyNode\Sediment</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransport.cpp">
+      <Filter>HierarchyNode\SedimentTransport</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportProperties.cpp">
+      <Filter>HierarchyNode\SedimentTransport</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportType.cpp">
+      <Filter>HierarchyNode\SedimentTransport</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\Water.cpp">
+      <Filter>HierarchyNode\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterProperties.cpp">
+      <Filter>HierarchyNode\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterType.cpp">
+      <Filter>HierarchyNode\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\Wave.cpp">
+      <Filter>HierarchyNode\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveProperties.cpp">
+      <Filter>HierarchyNode\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveType.cpp">
+      <Filter>HierarchyNode\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamic.cpp">
+      <Filter>HierarchyNode\WaveDynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicProperties.cpp">
+      <Filter>HierarchyNode\WaveDynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicType.cpp">
+      <Filter>HierarchyNode\WaveDynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\HierarchyNodeFactoryImp.cpp">
+      <Filter>HierarchyNodeFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\CoordinateSystemBinder\CoordinateSystemBinder.h">
+      <Filter>Binder\CoordinateSystemBinder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\MorisonBinder\MorisonBinder.h">
+      <Filter>Binder\MorisonBinder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\PileBinder\PileBinder.h">
+      <Filter>Binder\PileBinder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentBinder\SedimentBinder.h">
+      <Filter>Binder\SedimentBinder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\SedimentTransportBinder\SedimentTransportBinder.h">
+      <Filter>Binder\SedimentTransportBinder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaterBinder\WaterBinder.h">
+      <Filter>Binder\WaterBinder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveBinder\WaveBinder.h">
+      <Filter>Binder\WaveBinder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Binder\WaveDynamicBinder\WaveDynamicBinder.h">
+      <Filter>Binder\WaveDynamicBinder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\AddNodeCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\EditCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Commands\VisitorCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\Editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\CoordinateSystemEditor\CoordinateSystemEditor.h">
+      <Filter>Editor\CoordinateSystemEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\MorisonEditor\MorisonEditor.h">
+      <Filter>Editor\MorisonEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\PileEditor\PileEditor.h">
+      <Filter>Editor\PileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentEditor\SedimentEditor.h">
+      <Filter>Editor\SedimentEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\SedimentTransportEditor\SedimentTransportEditor.h">
+      <Filter>Editor\SedimentTransportEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaterEditor\WaterEditor.h">
+      <Filter>Editor\WaterEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveDynamicEditor\WaveDynamicEditor.h">
+      <Filter>Editor\WaveDynamicEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\Editor\WaveEditor\WaveEditor.h">
+      <Filter>Editor\WaveEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\AllNodeIncludes.h">
+      <Filter>HierarchyNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\AllNodeTypeIncludes.h">
+      <Filter>HierarchyNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\HierarchyNode.h">
+      <Filter>HierarchyNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\HierarchyNodeProperties.h">
+      <Filter>HierarchyNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Units.h">
+      <Filter>HierarchyNode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystem.h">
+      <Filter>HierarchyNode\CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemProperties.h">
+      <Filter>HierarchyNode\CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemType.h">
+      <Filter>HierarchyNode\CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\CoordinateSystem\CoordinateSystemVisitor.h">
+      <Filter>HierarchyNode\CoordinateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\Morison.h">
+      <Filter>HierarchyNode\Morison</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonChildTypes.h">
+      <Filter>HierarchyNode\Morison</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonProperties.h">
+      <Filter>HierarchyNode\Morison</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonType.h">
+      <Filter>HierarchyNode\Morison</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Morison\MorisonVisitor.h">
+      <Filter>HierarchyNode\Morison</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\Pile.h">
+      <Filter>HierarchyNode\Pile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileProperties.h">
+      <Filter>HierarchyNode\Pile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileType.h">
+      <Filter>HierarchyNode\Pile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Pile\PileVisitor.h">
+      <Filter>HierarchyNode\Pile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\AddRemoveNodeService.h">
+      <Filter>HierarchyNode\ProjectHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\ProjectHierarchy.h">
+      <Filter>HierarchyNode\ProjectHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\ProjectHierarchy\ProjectHierarchyService.h">
+      <Filter>HierarchyNode\ProjectHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\Sediment.h">
+      <Filter>HierarchyNode\Sediment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentProperties.h">
+      <Filter>HierarchyNode\Sediment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentType.h">
+      <Filter>HierarchyNode\Sediment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Sediment\SedimentVisitor.h">
+      <Filter>HierarchyNode\Sediment</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransport.h">
+      <Filter>HierarchyNode\SedimentTransport</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportChildTypes.h">
+      <Filter>HierarchyNode\SedimentTransport</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportProperties.h">
+      <Filter>HierarchyNode\SedimentTransport</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportType.h">
+      <Filter>HierarchyNode\SedimentTransport</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\SedimentTransport\SedimentTransportVisitor.h">
+      <Filter>HierarchyNode\SedimentTransport</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\Water.h">
+      <Filter>HierarchyNode\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterProperties.h">
+      <Filter>HierarchyNode\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterType.h">
+      <Filter>HierarchyNode\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Water\WaterVisitor.h">
+      <Filter>HierarchyNode\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\Wave.h">
+      <Filter>HierarchyNode\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveProperties.h">
+      <Filter>HierarchyNode\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveType.h">
+      <Filter>HierarchyNode\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\Wave\WaveVisitor.h">
+      <Filter>HierarchyNode\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamic.h">
+      <Filter>HierarchyNode\WaveDynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicChildTypes.h">
+      <Filter>HierarchyNode\WaveDynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicProperties.h">
+      <Filter>HierarchyNode\WaveDynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicType.h">
+      <Filter>HierarchyNode\WaveDynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNode\WaveDynamic\WaveDynamicVisitor.h">
+      <Filter>HierarchyNode\WaveDynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\HierarchyNodeFactory.h">
+      <Filter>HierarchyNodeFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\model\HierarchyNodeFactory\HierarchyNodeFactoryImp.h">
+      <Filter>HierarchyNodeFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\model\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Binder">
+      <UniqueIdentifier>{B3D0A711-1FCD-30C0-BFC7-63A9F9BD694D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{37EC61D3-AC05-3551-A0E6-6686A3B505B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{32F416AB-9EDC-3F51-A75A-47C2FFB2D4B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode">
+      <UniqueIdentifier>{EB4E07F8-9A6F-3B7E-963C-CEBD98791CA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNodeFactory">
+      <UniqueIdentifier>{3EA5108F-C7F0-3020-BE9A-9BA77D7528B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder\CoordinateSystemBinder">
+      <UniqueIdentifier>{9C0979D6-5BBB-35CA-B86D-948128D0AA0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder\MorisonBinder">
+      <UniqueIdentifier>{A142A1AB-6CE0-383D-B942-E12E0E7F3EA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder\PileBinder">
+      <UniqueIdentifier>{16BEB975-4B3F-3352-81DD-9C2CA02B1A22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder\SedimentBinder">
+      <UniqueIdentifier>{2B5EED8B-C9CE-311D-8966-297DFFE472AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder\SedimentTransportBinder">
+      <UniqueIdentifier>{91C67890-C8A0-3E4B-89BA-D5CC2EADCD19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder\WaterBinder">
+      <UniqueIdentifier>{2A23E401-BFAF-3D13-9653-270DB54A04B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder\WaveBinder">
+      <UniqueIdentifier>{DF897727-86CB-32F7-9604-22303012298D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Binder\WaveDynamicBinder">
+      <UniqueIdentifier>{6C909FD9-00B1-3ADE-9538-DEE8C2D0ED21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\CoordinateSystemEditor">
+      <UniqueIdentifier>{DE502DF8-5905-33C3-A917-15AC3438FA0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\MorisonEditor">
+      <UniqueIdentifier>{F50315F3-319F-39AF-B23A-316AFF25C80F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\PileEditor">
+      <UniqueIdentifier>{957DF3B0-89D1-3407-81F8-0240E90856EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\SedimentEditor">
+      <UniqueIdentifier>{F0D27D5B-CA98-30B8-9ECC-C4272890FCD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\SedimentTransportEditor">
+      <UniqueIdentifier>{21333377-0B70-3945-ACAD-4120BEA91B70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\WaterEditor">
+      <UniqueIdentifier>{122C228C-345F-3CD3-BF72-38D6EB7F496E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\WaveDynamicEditor">
+      <UniqueIdentifier>{0231F7CB-E07C-388D-AEDA-F4CBF0083F5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\WaveEditor">
+      <UniqueIdentifier>{4405DB0E-1842-3657-86B0-04D744E8E5ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\CoordinateSystem">
+      <UniqueIdentifier>{11A1FBE2-F537-33FF-B3CB-457C8EE76CE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\Morison">
+      <UniqueIdentifier>{01A6E816-470F-354D-AEDF-7A6323E58516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\Pile">
+      <UniqueIdentifier>{91BA16B7-7703-3C78-8905-D8193E4F1F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\ProjectHierarchy">
+      <UniqueIdentifier>{4BC184AA-D743-3DC0-9CEF-49F5B98C4369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\Sediment">
+      <UniqueIdentifier>{E57439C7-1445-3632-B5E5-4B3955C346F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\SedimentTransport">
+      <UniqueIdentifier>{B636D1AA-4472-38B4-8D07-EE006C3F63EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\Water">
+      <UniqueIdentifier>{FC1BA99F-5B85-3591-9713-4780A74CA295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\Wave">
+      <UniqueIdentifier>{DC006C33-544D-3243-91CE-EA8785F42DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyNode\WaveDynamic">
+      <UniqueIdentifier>{4291199F-F6DE-3AD6-AD4B-4DAED9039769}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

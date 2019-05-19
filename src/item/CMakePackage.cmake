@@ -1,0 +1,17 @@
+include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/CMakePackage.cmake)
+    include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/CMakePackage.cmake)
+        include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/DummyItem/CMakePackage.cmake)
+        include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/CoordinateSystemItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/MorisonItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/PileItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/ProjectHierarchyItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/SedimentItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/SedimentTransportItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/WaterItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/WaveDynamicItem/CMakePackage.cmake)
+            include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TreeItem/NodeItem/WaveItem/CMakePackage.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/TreeItemFactory/CMakePackage.cmake)
+
+include(${CMAKE_CURRENT_LIST_DIR}/HierarchicItem/TableItem/CMakePackage.cmake)
+

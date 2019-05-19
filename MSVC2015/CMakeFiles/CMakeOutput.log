@@ -1,0 +1,399 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:08 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\3.7.1\CompilerIdC\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "Debug\" wird erstellt.
+  Das Verzeichnis "Debug\CompilerIdC.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "Debug\CompilerIdC.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\3.7.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Die Datei "Debug\CompilerIdC.tlog\unsuccessfulbuild" wird gel”scht.
+  Aktualisieren des Timestamps von "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Die Erstellung von Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\3.7.1\CompilerIdC\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.71
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/3.7.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:09 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\3.7.1\CompilerIdCXX\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "Debug\" wird erstellt.
+  Das Verzeichnis "Debug\CompilerIdCXX.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\3.7.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Die Datei "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" wird gel”scht.
+  Aktualisieren des Timestamps von "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Die Erstellung von Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\3.7.1\CompilerIdCXX\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.64
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/3.7.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_45211.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:10 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_45211.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTC_45211.dir\Debug\" wird erstellt.
+  Das Verzeichnis "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTC_45211.dir\Debug\cmTC_45211.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTC_45211.dir\Debug\cmTC_45211.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45211.dir\Debug\\" /Fd"cmTC_45211.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45211.dir\Debug\\" /Fd"cmTC_45211.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_45211.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_45211.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_45211.lib" /MACHINE:X64  /machine:x64 cmTC_45211.dir\Debug\testCCompiler.obj
+  cmTC_45211.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_45211.exe
+  cmTC_45211.vcxproj -> C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_45211.pdb (Full PDB)
+FinalizeBuildStatus:
+  Die Datei "cmTC_45211.dir\Debug\cmTC_45211.tlog\unsuccessfulbuild" wird gel”scht.
+  Aktualisieren des Timestamps von "cmTC_45211.dir\Debug\cmTC_45211.tlog\cmTC_45211.lastbuildstate".
+Die Erstellung von Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_45211.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.94
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a03b7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:11 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_a03b7.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTC_a03b7.dir\Debug\" wird erstellt.
+  Das Verzeichnis "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTC_a03b7.dir\Debug\cmTC_a03b7.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTC_a03b7.dir\Debug\cmTC_a03b7.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a03b7.dir\Debug\\" /Fd"cmTC_a03b7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a03b7.dir\Debug\\" /Fd"cmTC_a03b7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_a03b7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_a03b7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_a03b7.lib" /MACHINE:X64  /machine:x64 cmTC_a03b7.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_a03b7.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_a03b7.exe
+  cmTC_a03b7.vcxproj -> C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_a03b7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Die Datei "cmTC_a03b7.dir\Debug\cmTC_a03b7.tlog\unsuccessfulbuild" wird gel”scht.
+  Aktualisieren des Timestamps von "cmTC_a03b7.dir\Debug\cmTC_a03b7.tlog\cmTC_a03b7.lastbuildstate".
+Die Erstellung von Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_a03b7.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.69
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5f459.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:12 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_5f459.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTC_5f459.dir\Debug\" wird erstellt.
+  Das Verzeichnis "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTC_5f459.dir\Debug\cmTC_5f459.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTC_5f459.dir\Debug\cmTC_5f459.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f459.dir\Debug\\" /Fd"cmTC_5f459.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f459.dir\Debug\\" /Fd"cmTC_5f459.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_5f459.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_5f459.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_5f459.lib" /MACHINE:X64  /machine:x64 cmTC_5f459.dir\Debug\testCXXCompiler.obj
+  cmTC_5f459.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_5f459.exe
+  cmTC_5f459.vcxproj -> C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_5f459.pdb (Full PDB)
+FinalizeBuildStatus:
+  Die Datei "cmTC_5f459.dir\Debug\cmTC_5f459.tlog\unsuccessfulbuild" wird gel”scht.
+  Aktualisieren des Timestamps von "cmTC_5f459.dir\Debug\cmTC_5f459.tlog\cmTC_5f459.lastbuildstate".
+Die Erstellung von Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_5f459.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.70
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d05f7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:13 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_d05f7.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTC_d05f7.dir\Debug\" wird erstellt.
+  Das Verzeichnis "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTC_d05f7.dir\Debug\cmTC_d05f7.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTC_d05f7.dir\Debug\cmTC_d05f7.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d05f7.dir\Debug\\" /Fd"cmTC_d05f7.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d05f7.dir\Debug\\" /Fd"cmTC_d05f7.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_d05f7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_d05f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_d05f7.lib" /MACHINE:X64  /machine:x64 cmTC_d05f7.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_d05f7.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_d05f7.exe
+  cmTC_d05f7.vcxproj -> C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_d05f7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Die Datei "cmTC_d05f7.dir\Debug\cmTC_d05f7.tlog\unsuccessfulbuild" wird gel”scht.
+  Aktualisieren des Timestamps von "cmTC_d05f7.dir\Debug\cmTC_d05f7.tlog\cmTC_d05f7.lastbuildstate".
+Die Erstellung von Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_d05f7.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.70
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_18fb2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:14 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_18fb2.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTC_18fb2.dir\Debug\" wird erstellt.
+  Das Verzeichnis "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTC_18fb2.dir\Debug\cmTC_18fb2.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTC_18fb2.dir\Debug\cmTC_18fb2.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_18fb2.dir\Debug\\" /Fd"cmTC_18fb2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_18fb2.dir\Debug\\" /Fd"cmTC_18fb2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_18fb2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_18fb2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_18fb2.lib" /MACHINE:X64  /machine:x64 cmTC_18fb2.dir\Debug\feature_tests.obj
+  cmTC_18fb2.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_18fb2.exe
+  cmTC_18fb2.vcxproj -> C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_18fb2.pdb (Full PDB)
+FinalizeBuildStatus:
+  Die Datei "cmTC_18fb2.dir\Debug\cmTC_18fb2.tlog\unsuccessfulbuild" wird gel”scht.
+  Aktualisieren des Timestamps von "cmTC_18fb2.dir\Debug\cmTC_18fb2.tlog\cmTC_18fb2.lastbuildstate".
+Die Erstellung von Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_18fb2.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefhrt.
+    0 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.70
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED succeeded with the following output:
+Change Dir: C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f55b4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R)-Buildmodul, Version 14.0.24730.2
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Der Buildvorgang wurde am 08.12.2016 19:26:16 gestartet.
+Das in einem BeforeTargets-Attribut bei "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" aufgefhrte Ziel "BeforeGenerateProjectPriFile" ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_f55b4.vcxproj" auf Knoten "1" (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis "cmTC_f55b4.dir\Debug\" wird erstellt.
+  Das Verzeichnis "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\" wird erstellt.
+  Das Verzeichnis "cmTC_f55b4.dir\Debug\cmTC_f55b4.tlog\" wird erstellt.
+InitializeBuildStatus:
+  "cmTC_f55b4.dir\Debug\cmTC_f55b4.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+ClCompile:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f55b4.dir\Debug\\" /Fd"cmTC_f55b4.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f55b4.dir\Debug\\" /Fd"cmTC_f55b4.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx
+  
+  src.cxx
+C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(2): warning C4996: 'somefunc': was declared deprecated [C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_f55b4.vcxproj]
+  C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(1): note: see declaration of 'somefunc'
+Link:
+  D:\Programme (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_f55b4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_f55b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_f55b4.lib" /MACHINE:X64  /machine:x64 cmTC_f55b4.dir\Debug\src.obj
+  cmTC_f55b4.vcxproj -> C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\Debug\cmTC_f55b4.exe
+  cmTC_f55b4.vcxproj -> C:/Users/Sven/Documents/CompositeApp/MSVC2015/CMakeFiles/CMakeTmp/Debug/cmTC_f55b4.pdb (Full PDB)
+FinalizeBuildStatus:
+  Die Datei "cmTC_f55b4.dir\Debug\cmTC_f55b4.tlog\unsuccessfulbuild" wird gel”scht.
+  Aktualisieren des Timestamps von "cmTC_f55b4.dir\Debug\cmTC_f55b4.tlog\cmTC_f55b4.lastbuildstate".
+Die Erstellung von Projekt "C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_f55b4.vcxproj" ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgefhrt.
+
+"C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_f55b4.vcxproj" (Standardziel) (1) ->
+(ClCompile Ziel) -> 
+  C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\src.cxx(2): warning C4996: 'somefunc': was declared deprecated [C:\Users\Sven\Documents\CompositeApp\MSVC2015\CMakeFiles\CMakeTmp\cmTC_f55b4.vcxproj]
+
+    1 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.70
+
+Source file was:
+__declspec(deprecated) int somefunc() { return 0; }
+    int main() { return somefunc();}

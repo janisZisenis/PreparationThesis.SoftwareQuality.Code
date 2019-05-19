@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\Command.cpp">
+      <Filter>CommandQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandQueueImp.cpp">
+      <Filter>CommandQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\Composite.cpp">
+      <Filter>Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeDecorator\CompositeDecorator.cpp">
+      <Filter>Composite\CompositeDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeDecorator\FixedChildrenDecorator.cpp">
+      <Filter>Composite\CompositeDecorator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CompositeImp.cpp">
+      <Filter>Composite\CompositeImp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\Leaf\Leaf.cpp">
+      <Filter>Composite\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\ConsoleLogger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\LoggingObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\Subject.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\String\String.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\Visitable.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\AddCommandService.h">
+      <Filter>CommandQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\Command.h">
+      <Filter>CommandQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandQueue.h">
+      <Filter>CommandQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandQueueImp.h">
+      <Filter>CommandQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\Composite.h">
+      <Filter>Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeDecorator\CompositeDecorator.h">
+      <Filter>Composite\CompositeDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeDecorator\FixedChildrenDecorator.h">
+      <Filter>Composite\CompositeDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\CompositeImp\CompositeImp.h">
+      <Filter>Composite\CompositeImp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Composite\Leaf\Leaf.h">
+      <Filter>Composite\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventArgs.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventListener.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\ConsoleLogger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\LoggingObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\Observer.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\Subject.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\String\String.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\String\stringException.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\Visitable.h">
+      <Filter>Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\Visitor.h">
+      <Filter>Visitor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Composite\CompositeDecorator">
+      <UniqueIdentifier>{0B146C03-A54E-39CB-BFDA-87C073F42D6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\CompositeImp">
+      <UniqueIdentifier>{E4808E95-B85A-3573-B9C4-14928260E7C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite\Leaf">
+      <UniqueIdentifier>{CE0D7297-13B4-3899-8B6F-B2D3DC642991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandQueue">
+      <UniqueIdentifier>{BB0E327B-E25C-3333-9F6B-0A2FF601DE16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite">
+      <UniqueIdentifier>{157C3C42-0377-3CFD-A652-A4B3BBA0D607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{B2E8FBCB-F492-3892-83C7-80A92C7BC8DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{08F087EE-6295-3DC5-B6C7-B846C38C6848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{DF429909-7CBD-328E-A1FE-D344B09A47C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{8A6A59FC-1798-3759-81CD-70581C786013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer">
+      <UniqueIdentifier>{EAF31A60-F84A-31EA-A299-CD951C30CBB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{9E452BE0-A38E-376A-A2E1-C062458EB4F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visitor">
+      <UniqueIdentifier>{0AB65904-D1BE-3303-B9C3-05B505508330}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\QCustomPlot\qcustomplot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\QCustomPlot\MSVC2015\QCustomPlot_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\QCustomPlot\qcustomplot.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Desktop\CompositeApp\src\3rdParty\QCustomPlot\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7948C9AB-49AB-3924-87ED-AA6A82B8C888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{DAC81D83-4ED9-3031-BE98-169026BC1F1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

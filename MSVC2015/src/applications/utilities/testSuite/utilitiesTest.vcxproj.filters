@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandQueueImpTest.cpp">
+      <Filter>CommandQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventTest.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\MathTest.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\ObjectTest.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\SubjectTest.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\String\StringTest.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandMocks.h">
+      <Filter>CommandQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\CommandQueue\CommandQueueImpTest.h">
+      <Filter>CommandQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventArgsMocks.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventListenerMocks.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventMocks.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Event\EventTest.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Logger\LoggerMocks.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Math\MathTest.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\ObjectMocks.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Object\ObjectTest.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\ObserverMocks.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Observer\SubjectTest.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\String\StringTest.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\VisitableMocks.h">
+      <Filter>Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\utilities\Visitor\VisitorMocks.h">
+      <Filter>Visitor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\utilities\testSuite\CMakeLists.txt">
+      <Filter>general</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CommandQueue">
+      <UniqueIdentifier>{BB0E327B-E25C-3333-9F6B-0A2FF601DE16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{B2E8FBCB-F492-3892-83C7-80A92C7BC8DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{08F087EE-6295-3DC5-B6C7-B846C38C6848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{DF429909-7CBD-328E-A1FE-D344B09A47C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{8A6A59FC-1798-3759-81CD-70581C786013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer">
+      <UniqueIdentifier>{EAF31A60-F84A-31EA-A299-CD951C30CBB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{9E452BE0-A38E-376A-A2E1-C062458EB4F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visitor">
+      <UniqueIdentifier>{0AB65904-D1BE-3303-B9C3-05B505508330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="general">
+      <UniqueIdentifier>{51A54AB9-D9BB-3D84-9269-9319626ACAC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{ADEEA9D6-EAB9-3972-9901-7F4483051619}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

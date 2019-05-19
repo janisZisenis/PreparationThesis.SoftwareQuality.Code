@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\HierarchicItem.cpp">
+      <Filter>HierarchicItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\TreeItem.cpp">
+      <Filter>HierarchicItem\TreeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\DummyItem\DummyItem.cpp">
+      <Filter>HierarchicItem\TreeItem\DummyItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\CoordinateSystemItem\CoordinateSystemItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\CoordinateSystemItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\MorisonItem\MorisonItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\MorisonItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\PileItem\PileItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\PileItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\ProjectHierarchyItem\ProjectHierarchyItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\ProjectHierarchyItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\SedimentItem\SedimentItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\SedimentItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\SedimentTransportItem\SedimentTransportItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\SedimentTransportItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\WaterItem\WaterItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\WaterItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\WaveDynamicItem\WaveDynamicItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\WaveDynamicItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\WaveItem\WaveItem.cpp">
+      <Filter>HierarchicItem\TreeItem\NodeItem\WaveItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\TreeItemFactory\TreeItemFactoryImp.cpp">
+      <Filter>TreeItemFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TableItem\PropertiesItem.cpp">
+      <Filter>HierarchicItem\TableItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TableItem\TableItem.cpp">
+      <Filter>HierarchicItem\TableItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TableItem\TableRoot.cpp">
+      <Filter>HierarchicItem\TableItem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\HierarchicItem.h">
+      <Filter>HierarchicItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\AllTreeItemIncludes.h">
+      <Filter>HierarchicItem\TreeItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\TreeItem.h">
+      <Filter>HierarchicItem\TreeItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\DummyItem\DummyItem.h">
+      <Filter>HierarchicItem\TreeItem\DummyItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\CoordinateSystemItem\CoordinateSystemItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\CoordinateSystemItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\MorisonItem\MorisonItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\MorisonItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\PileItem\PileItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\PileItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\ProjectHierarchyItem\ProjectHierarchyItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\ProjectHierarchyItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\SedimentItem\SedimentItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\SedimentItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\SedimentTransportItem\SedimentTransportItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\SedimentTransportItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\WaterItem\WaterItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\WaterItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\WaveDynamicItem\WaveDynamicItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\WaveDynamicItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TreeItem\NodeItem\WaveItem\WaveItem.h">
+      <Filter>HierarchicItem\TreeItem\NodeItem\WaveItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\TreeItemFactory\TreeItemFactory.h">
+      <Filter>TreeItemFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\TreeItemFactory\TreeItemFactoryImp.h">
+      <Filter>TreeItemFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TableItem\PropertiesItem.h">
+      <Filter>HierarchicItem\TableItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TableItem\TableItem.h">
+      <Filter>HierarchicItem\TableItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sven\Documents\CompositeApp\src\item\HierarchicItem\TableItem\TableRoot.h">
+      <Filter>HierarchicItem\TableItem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sven\Documents\CompositeApp\src\applications\item\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HierarchicItem">
+      <UniqueIdentifier>{BFE2FA32-2FCC-3BD1-A932-FACD55A009B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeItemFactory">
+      <UniqueIdentifier>{9878B381-859A-30C4-9E3E-A94FC439A46D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\CoordinateSystemItem">
+      <UniqueIdentifier>{31660C6E-5AD5-32A9-A98E-CB3FDB698374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\MorisonItem">
+      <UniqueIdentifier>{024C88A2-FA4E-3AE9-BE76-97008198AE80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\PileItem">
+      <UniqueIdentifier>{99A488BD-DF6D-33C1-A786-6BF0BCB796AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\ProjectHierarchyItem">
+      <UniqueIdentifier>{90CBB3DF-2B62-3C20-8987-9279358D1C43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\SedimentItem">
+      <UniqueIdentifier>{FBEA7E61-F13F-3EA4-B5AA-B02A3D8B5F8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\SedimentTransportItem">
+      <UniqueIdentifier>{643BEBBB-FABE-3DFA-9F54-7A7ADC7CB9F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\WaterItem">
+      <UniqueIdentifier>{37C8CD1A-FB17-30A6-9ED6-E09E9404F5BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\WaveDynamicItem">
+      <UniqueIdentifier>{75045E0B-3E96-3136-A3D4-DD7C2D5AFAAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem\WaveItem">
+      <UniqueIdentifier>{57DA9141-70BF-3A06-85DB-B21D460DF56A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem">
+      <UniqueIdentifier>{E7FB2CCC-F8B9-38A4-9CEE-6E255F15DEEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TableItem">
+      <UniqueIdentifier>{2E7E8401-383B-37D8-B422-B1B1D8701643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\DummyItem">
+      <UniqueIdentifier>{4FB2FE5E-AA12-3943-9D5B-A9C7BA04F243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchicItem\TreeItem\NodeItem">
+      <UniqueIdentifier>{4DC3D719-F542-3686-94F2-AC4D2E069E65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
